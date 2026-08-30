@@ -1,0 +1,40 @@
+name: attribution audit
+
+# Every commit authored with an email that is not verified on this account is
+# worth zero contributions. This job watches for that leak so it gets caught in
+# days rather than in months of a flat contribution graph.
+
+on:
+  schedule:
+    - cron: "17 20 * * 0" # Mondays ~06:17 Melbourne
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Window to audit, in days"
+        default: "30"
+      fail_under:
+        description: "Fail when fewer than this percent of commits are credited"
+        default: "90"
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Audit commit attribution
+        shell: bash # for pipefail — otherwise `tee` swallows the audit's exit code
+        env:
+          # A classic PAT with `repo` scope also covers private repositories;
+          # without it the audit sees public repositories only.
+          GITHUB_TOKEN: ${{ secrets.ATTRIBUTION_TOKEN || github.token }}
+          DAYS: ${{ inputs.days || '30' }}
+          FAIL_UNDER: ${{ inputs.fail_under || '90' }}
+        run: |
+          python3 scripts/attribution_audit.py \
+            --days "$DAYS" \
+            --fail-under "$FAIL_UNDER" \
+            | tee -a "$GITHUB_STEP_SUMMARY"
