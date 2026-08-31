@@ -37,51 +37,72 @@ is in the diff. An unrecognised author email is worth zero, silently.
 
 ## Fixes
 
-### 1. Reclaim the 2,337 commits (one time, ~5 minutes)
+### 1. Consolidate the student address onto @ChinmayGit8765
 
-An email address can be verified on only one GitHub account, so this is a move,
-not a copy:
+This is the step that reclaims 2,337 commits, and it is the one step no script
+can do — GitHub verifies an address by mailing it, so it needs your inbox.
+An address can be verified on **one account only**, so this is a move, not a
+copy. Do it in this order:
 
-1. Sign in as **@chinmayuni12371** → Settings → Emails → remove
-   `cpur0011@student.monash.edu`.
-2. Sign in as **@ChinmayGit8765** → Settings → Emails → add
-   `cpur0011@student.monash.edu` → confirm the verification mail.
-3. Do the same for `chinmaypurohit1010@gmail.com`, which is verified nowhere
-   and is losing commits to no one at all.
+1. **@chinmayuni12371** → [Settings → Emails](https://github.com/settings/emails)
+   → delete `cpur0011@student.monash.edu`. Adding it to the other account first
+   will simply fail while it is still held here.
+2. **@ChinmayGit8765** → [Settings → Emails](https://github.com/settings/emails)
+   → *Add email address* → `cpur0011@student.monash.edu` → open the
+   verification mail and confirm.
+3. Same again for `chinmaypurohit1010@gmail.com`. It is verified on no account
+   at all, so there is nothing to remove first — just add and verify.
+4. Add both to the `ALLOWED` list in `scripts/consolidate_identity.sh` and
+   re-run it, so the guard stops treating them as leaks.
+5. A day later: `python3 scripts/attribution_audit.py --days 30` — the Monash
+   row should now read `ChinmayGit8765` / `yes`.
 
-GitHub re-attributes historical commits when an email is added, and backfills
-the contribution graph — the past year of Monash-signed work reappears.
+GitHub re-attributes historical commits the moment an address is verified and
+backfills the contribution graph, so the past year of Monash-signed work
+reappears. Give it up to ~24 hours to redraw.
+
+Three things worth knowing before you start:
+
+- **Do it while the Monash inbox still works.** Verification needs a live
+  mailbox. After you graduate the address is unrecoverable, and with it the
+  2,337 commits.
+- **Removing a verified address de-attributes its commits again.** Once moved,
+  leave it on the account — it costs nothing to keep, and it is what holds the
+  history in place.
+- **If "Block command line pushes that expose my email" is on**, pushes
+  authored with `careers.chinmay@gmail.com` are rejected. Either turn that off,
+  or switch the identity everywhere to
+  `193141422+ChinmayGit8765@users.noreply.github.com`, which counts identically
+  and is already in the allowlist.
 
 Rather keep the accounts separate? Then step 3 alone still recovers 15 commits
 a month, and every future commit must use `careers.chinmay@gmail.com`.
 
 ### 2. Stop the leak at the source (every machine, every agent)
 
-Set the identity globally, once per machine:
+`scripts/consolidate_identity.sh` does all three parts of this. It is a dry run
+until you pass `--apply`, and is safe to run repeatedly:
 
 ```sh
-git config --global user.name "Chinmay Purohit"
-git config --global user.email "careers.chinmay@gmail.com"
+./scripts/consolidate_identity.sh              # show the plan
+./scripts/consolidate_identity.sh --apply      # global identity, guard, sweep
+./scripts/consolidate_identity.sh --apply --root ~/code --depth 6
 ```
 
-Agent sessions are the sharp edge here. A Claude Code cloud container ships
-with `user.email=noreply@anthropic.com`, which is why 8 commits in August are
-credited to `@claude`. Any agent, worktree, or CI checkout that commits on your
-behalf needs the identity set explicitly inside that checkout.
+It sets the global identity, installs a `pre-commit` guard in a global
+`core.hooksPath` that refuses any commit whose author email is not verified on
+the account, and sweeps every checkout under `--root` for stale local
+overrides. Repos that set `core.hooksPath` themselves — husky and friends —
+win over the global setting and are left alone, so the guard cannot displace a
+project's own hooks.
 
-To make a repository refuse a wrong-identity commit before it is written, drop
-this in `.git/hooks/pre-commit` (or a shared `core.hooksPath` directory):
-
-```sh
-#!/bin/sh
-allowed="careers.chinmay@gmail.com cpur0011@student.monash.edu"
-email=$(git config user.email)
-case " $allowed " in
-  *" $email "*) ;;
-  *) echo "refusing: author email '$email' does not count on your graph" >&2
-     exit 1 ;;
-esac
-```
+Agent sessions are the sharp edge. A Claude Code cloud container ships with
+`user.email=noreply@anthropic.com`, which is why 8 commits in August went to
+`@claude`, and no per-machine setting reaches inside a fresh container. So this
+repo also carries `.claude/hooks/session-start.sh`, registered in
+`.claude/settings.json`: every session, cloud or local, pins the checkout's
+identity before anything can commit. Copy those two files into any repo an
+agent touches — they are eleven lines and have no dependencies.
 
 ### 3. Decide what the cron bots commit as
 
