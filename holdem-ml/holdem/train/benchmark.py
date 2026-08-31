@@ -12,7 +12,7 @@ import argparse
 import os
 import random
 import time
-from typing import List
+from typing import List, Sequence
 
 import numpy as np
 
@@ -42,14 +42,22 @@ def rule(title: str) -> None:
     print(f"\n{title}\n" + "─" * len(title))
 
 
-def heads_up(hero_factory, hands: int, seed: int = 101) -> List[float]:
+def heads_up(hero_factory, hands: int, seeds: Sequence[int]) -> List[float]:
+    """Mean bb/100 against each baseline, averaged over several seeds.
+
+    No-limit swings are large enough that a single seed is close to
+    meaningless, so every figure here is a mean over independent sessions.
+    """
     out = []
     for _, villain_cls in BASELINES:
-        rng = random.Random(seed)
-        hero = hero_factory(rng)
-        game = Game([hero, villain_cls("villain", rng)], rng=rng)
-        game.run(hands, keep_history=False)
-        out.append(game.stats.bb_per_100(0, game.bb))
+        per_seed = []
+        for seed in seeds:
+            rng = random.Random(seed)
+            hero = hero_factory(rng)
+            game = Game([hero, villain_cls("villain", rng)], rng=rng)
+            game.run(hands, keep_history=False)
+            per_seed.append(game.stats.bb_per_100(0, game.bb))
+        out.append(float(np.mean(per_seed)))
     return out
 
 
@@ -61,8 +69,11 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--quick", action="store_true")
     ap.add_argument("--hands", type=int, default=None)
+    ap.add_argument("--seeds", type=int, default=None,
+                    help="independent sessions to average over")
     args = ap.parse_args()
-    hands = args.hands or (400 if args.quick else 3000)
+    hands = args.hands or (400 if args.quick else 2000)
+    seeds = list(range(101, 101 + (args.seeds or (2 if args.quick else 4))))
     start = time.time()
 
     rule("Equity against published all-in numbers")
@@ -75,31 +86,41 @@ def main() -> None:
         print(f"  {hand} vs {opponents}: {got:.3f}   published {published:.3f}"
               f"   diff {abs(got - published):.3f}")
 
-    rule(f"Heads-up, big blinds per 100 hands ({hands} hands each)")
+    rule(f"Heads-up, big blinds per 100 hands "
+         f"(mean of {len(seeds)} sessions x {hands} hands)")
     print("  " + " " * 17 + "".join(f"{name[:10]:>11}" for name, _ in BASELINES))
     if os.path.exists(DEFAULT_POLICY):
-        print_row("neural (pro)", heads_up(
-            lambda rng: NeuralBot("hero", difficulty="pro", rng=rng), hands))
-        print_row("neural (regular)", heads_up(
-            lambda rng: NeuralBot("hero", difficulty="regular", rng=rng), hands))
-        print_row("neural (novice)", heads_up(
-            lambda rng: NeuralBot("hero", difficulty="novice", rng=rng), hands))
+        for level in ("pro", "strong", "regular", "casual", "novice"):
+            print_row(f"neural ({level})", heads_up(
+                lambda rng, level=level: NeuralBot("hero", difficulty=level, rng=rng),
+                hands, seeds))
     else:
         print("  (no trained policy — run holdem.train.selfplay)")
     if os.path.exists(DEFAULT_BLUEPRINT):
-        print_row("CFR blueprint", heads_up(lambda rng: BlueprintBot("bp", rng=rng), hands))
-    print_row("EquityBot", heads_up(lambda rng: EquityBot("hero", rng), hands))
+        print_row("CFR blueprint", heads_up(
+            lambda rng: BlueprintBot("bp", rng=rng), hands, seeds))
+    print_row("EquityBot", heads_up(lambda rng: EquityBot("hero", rng), hands, seeds))
 
     if os.path.exists(DEFAULT_POLICY):
-        rule(f"Five-handed table ({hands} hands)")
-        rng = random.Random(9)
-        hero = NeuralBot("neural(pro)", difficulty="pro", rng=rng)
-        table = [hero, EquityBot("equity", rng), TightRock("rock", rng),
-                 CallingStation("station", rng), LooseAggressive("lag", rng)]
-        game = Game(table, rng=rng)
-        game.run(hands, keep_history=False)
-        for name, net, bb100 in game.leaderboard():
-            print(f"  {name:<17}{net:>10}{bb100:>+11.0f} bb/100")
+        rule(f"Five-handed table ({len(seeds)} sessions x {hands} hands)")
+        totals: dict = {}
+        placings: List[int] = []
+        for seed in seeds:
+            rng = random.Random(seed)
+            hero = NeuralBot("neural(pro)", difficulty="pro", rng=rng)
+            table = [hero, EquityBot("equity", rng), TightRock("rock", rng),
+                     CallingStation("station", rng), LooseAggressive("lag", rng)]
+            game = Game(table, rng=rng)
+            game.run(hands, keep_history=False)
+            board = game.leaderboard()
+            placings.append([n for n, _, _ in board].index("neural(pro)") + 1)
+            for name, _net, bb100 in board:
+                totals.setdefault(name, []).append(bb100)
+        for name, values in sorted(totals.items(), key=lambda kv: -np.mean(kv[1])):
+            print(f"  {name:<17}{np.mean(values):>+9.0f} bb/100"
+                  f"   (per session: {', '.join(f'{v:+.0f}' for v in values)})")
+        print(f"  neural(pro) finished in position {placings} "
+              f"across the {len(seeds)} sessions")
 
     if os.path.exists(DEFAULT_CARDNET):
         rule("Card recognition")

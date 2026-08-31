@@ -31,8 +31,10 @@ def test_corpus_extraction_shapes():
     game = session(hands=30)
     samples = samples_from_results(game.history, equity_iters=80)
     assert samples
-    X, M, A, R = stack_samples(samples)
+    X, M, A, R, E = stack_samples(samples)
     assert X.shape == (len(samples), NUM_FEATURES)
+    assert E.shape == (len(samples),) and not E.any(), \
+        "replayed hands are never exploratory"
     assert M.shape == (len(samples), NUM_ACTIONS)
     assert ((0 <= A) & (A < NUM_ACTIONS)).all()
     assert all(M[i, A[i]] for i in range(len(A))), "the action taken must be legal"
@@ -43,8 +45,9 @@ def test_corpus_save_and_load(tmp_path):
     samples = samples_from_results(game.history, equity_iters=60)
     path = str(tmp_path / "corpus.npz")
     save_corpus(path, samples)
-    X, M, A, R, street = load_corpus(path)
+    X, M, A, R, E, street = load_corpus(path)
     assert len(X) == len(samples)
+    assert len(E) == len(samples)
     assert street.max() <= 3
 
 

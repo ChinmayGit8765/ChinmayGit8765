@@ -88,3 +88,25 @@ def test_leaderboard_and_report():
 def test_needs_two_players():
     with pytest.raises(ValueError):
         Game([Folder("solo")])
+
+
+def test_a_seeded_session_replays_identically():
+    """Regression: Monte-Carlo equity used to draw from OS entropy, so two runs
+    of the same seeded session produced different hands."""
+    from holdem.bots.neural import NeuralBot
+    from holdem.equity import _cached_equity_key
+
+    def run():
+        rng = random.Random(4242)
+        bots = [NeuralBot("neural", difficulty="strong", rng=rng, load_defaults=False),
+                EquityBot("equity", rng), CallingStation("station", rng)]
+        game = Game(bots, rng=rng)
+        game.run(40)
+        return [(r.board, sorted(r.net.items()),
+                 [(x.seat, x.action, x.to_amount) for x in r.history])
+                for r in game.history]
+
+    first = run()
+    _cached_equity_key.cache_clear()
+    second = run()
+    assert first == second, "the same seed must produce the same session"

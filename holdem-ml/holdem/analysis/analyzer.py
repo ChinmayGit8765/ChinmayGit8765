@@ -150,12 +150,24 @@ LEAK_RULES = [
 
 class Analyzer:
     def __init__(self, model: Optional[ProModel] = None,
-                 path: Optional[str] = None, equity_iters: int = 400):
+                 path: Optional[str] = None, equity_iters: int = 400,
+                 min_support: float = 0.10):
+        """``min_support`` is the smallest probability the pro policy must give
+        an action before the analyser will hold it up as the better play.  A
+        line a strong player takes 2% of the time is not the yardstick for
+        somebody else's mistake, and the value estimate for a nearly-unplayed
+        action is the least reliable one the model has.
+
+        Note that ``ev_loss`` is a *relative* measure: it is the gap to the
+        maximum of seven noisy value estimates, so even flawless play scores
+        above zero.  Compare players and decisions with it; do not read it as
+        chips left on the table."""
         if model is None:
             candidate = path or DEFAULT_PRO_MODEL
             model = load_pro_model(candidate) if os.path.exists(candidate) else None
         self.model = model
         self.equity_iters = equity_iters
+        self.min_support = min_support
 
     # -- one decision --------------------------------------------------------
 
@@ -175,8 +187,12 @@ class Analyzer:
         probs, values, spot, equity = self.assess_spot(dp.obs)
         chosen = to_abstract(dp.obs, dp.action)
         finite = np.where(np.isfinite(values), values, -np.inf)
-        best = int(np.argmax(finite))
-        ev_loss = float(max(0.0, finite[best] - finite[chosen])) if np.isfinite(finite[chosen]) else 0.0
+        # Only compare against lines the pro policy actually plays.
+        candidates = (probs >= self.min_support) & np.isfinite(values)
+        candidates[chosen] = True
+        best = int(np.argmax(np.where(candidates, finite, -np.inf)))
+        ev_loss = float(max(0.0, finite[best] - finite[chosen])) \
+            if np.isfinite(finite[chosen]) else 0.0
         return DecisionReport(
             hand_number=hand_number, street=dp.street, name=dp.name,
             hole=list(dp.obs.hole), board=list(dp.obs.board), pot=dp.obs.pot,

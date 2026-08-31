@@ -139,14 +139,32 @@ def preflop_equity(hole: Sequence[int], opponents: int = 1) -> float:
     row = table.get(hole_label(hole))
     if row:
         return row[min(max(opponents, 1), len(row)) - 1]
-    return equity(hole, (), opponents, iters=400)
+    key = tuple(sorted(hole))
+    return equity(hole, (), opponents, iters=400,
+                  rng=np.random.default_rng(_seed_for(key, opponents, 400)))
+
+
+def _seed_for(key: tuple, opponents: int, iters: int) -> int:
+    """A stable seed derived from the situation itself.
+
+    Roll-outs used to draw from OS entropy, which made a bot's decisions differ
+    between runs even with a seeded game — reproducing a hand was impossible.
+    Seeding from the (cards, opponents, budget) key instead makes ``fast_equity``
+    a deterministic function of its arguments, so a seeded session replays
+    exactly, while different situations still get independent samples.
+    """
+    h = 1469598103934665603
+    for value in (*key, opponents, iters):
+        h = ((h ^ (int(value) + 0x9E3779B9)) * 1099511628211) & 0xFFFFFFFFFFFFFFFF
+    return h & 0x7FFFFFFF
 
 
 @lru_cache(maxsize=200_000)
 def _cached_equity_key(key: tuple, opponents: int, iters: int) -> float:
     hole = list(key[:2])
     board = list(key[2:])
-    return equity(hole, board, opponents, iters=iters)
+    return equity(hole, board, opponents, iters=iters,
+                  rng=np.random.default_rng(_seed_for(key, opponents, iters)))
 
 
 def fast_equity(

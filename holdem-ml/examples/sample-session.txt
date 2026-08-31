@@ -1,0 +1,4045 @@
+Holdem-ML Hand #1000:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($2.00 in chips)
+Seat 2: Marla ($2.00 in chips)
+Seat 3: Devon ($2.00 in chips)
+Seat 4: Priya ($2.00 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [4c 2c]
+Dealt to Marla [3s 8d]
+Dealt to Devon [Qh 2h]
+Dealt to Priya [4d 9c]
+Priya: raises $0.05 to $0.05
+Hero: calls $0.05
+Marla: folds
+Devon: folds
+*** FLOP *** [4h Kc Ts]
+Priya: bets $0.26
+Hero: calls $0.26
+*** TURN *** [4h Kc Ts] [6h]
+Priya: checks
+Hero: checks
+*** RIVER *** [4h Kc Ts 6h] [Jh]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [4c 2c]
+Priya: shows [4d 9c]
+Hero collected $0.32 from pot
+Priya collected $0.32 from pot
+*** SUMMARY ***
+Total pot $0.65 | Rake $0.00
+Board [4h Kc Ts 6h Jh]
+
+Holdem-ML Hand #1001:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($2.01 in chips)
+Seat 2: Marla ($1.99 in chips)
+Seat 3: Devon ($1.98 in chips)
+Seat 4: Priya ($2.02 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [5d 6d]
+Dealt to Marla [Td Qh]
+Dealt to Devon [2d 8s]
+Dealt to Priya [Jd Qc]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: raises $0.03 to $0.05
+Hero: calls $0.03
+*** FLOP *** [Tc Qs 7h]
+Priya: bets $0.07
+Hero: calls $0.07
+*** TURN *** [Tc Qs 7h] [Ks]
+Priya: bets $0.25
+Hero: calls $0.25
+*** RIVER *** [Tc Qs 7h Ks] [9c]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [5d 6d]
+Priya: shows [Jd Qc]
+Priya collected $0.75 from pot
+*** SUMMARY ***
+Total pot $0.75 | Rake $0.00
+Board [Tc Qs 7h Ks 9c]
+
+Holdem-ML Hand #1002:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($1.64 in chips)
+Seat 2: Marla ($1.99 in chips)
+Seat 3: Devon ($1.97 in chips)
+Seat 4: Priya ($2.40 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [9h 3h]
+Dealt to Marla [4d Qh]
+Dealt to Devon [6c Jc]
+Dealt to Priya [5c As]
+Marla: folds
+Devon: folds
+Priya: raises $0.03 to $0.04
+Hero: calls $0.02
+*** FLOP *** [Ts Kh Kd]
+Priya: bets $0.05
+Hero: calls $0.05
+*** TURN *** [Ts Kh Kd] [Js]
+Priya: checks
+Hero: checks
+*** RIVER *** [Ts Kh Kd Js] [8s]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [9h 3h]
+Priya: shows [5c As]
+Priya collected $0.18 from pot
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.00
+Board [Ts Kh Kd Js 8s]
+
+Holdem-ML Hand #1003:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($1.55 in chips)
+Seat 2: Marla ($1.99 in chips)
+Seat 3: Devon ($1.97 in chips)
+Seat 4: Priya ($2.49 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Jh 2d]
+Dealt to Marla [8c Jc]
+Dealt to Devon [4d 7c]
+Dealt to Priya [3h Ks]
+Devon: folds
+Priya: raises $0.07 to $0.07
+Hero: calls $0.06
+Marla: calls $0.05
+*** FLOP *** [Ac 7s Kh]
+Hero: bets $0.07
+Marla: folds
+Priya: raises $0.30 to $0.30
+Hero: calls $0.23
+*** TURN *** [Ac 7s Kh] [8s]
+Hero: checks
+Priya: bets $0.81
+Hero: calls $0.81
+*** RIVER *** [Ac 7s Kh 8s] [5s]
+Hero: checks
+Priya: checks
+*** SHOW DOWN ***
+Hero: shows [Jh 2d]
+Priya: shows [3h Ks]
+Priya collected $2.43 from pot
+*** SUMMARY ***
+Total pot $2.43 | Rake $0.00
+Board [Ac 7s Kh 8s 5s]
+
+Holdem-ML Hand #1004:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($0.37 in chips)
+Seat 2: Marla ($1.92 in chips)
+Seat 3: Devon ($1.97 in chips)
+Seat 4: Priya ($3.74 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Ad Kd]
+Dealt to Marla [7d 7h]
+Dealt to Devon [Qc 2h]
+Dealt to Priya [2d 5s]
+Priya: raises $0.05 to $0.05
+Hero: calls $0.05
+Marla: calls $0.04
+Devon: folds
+*** FLOP *** [7s 6s 8c]
+Marla: bets $0.06
+Priya: raises $0.35 to $0.35
+Hero: calls $0.32
+Marla: calls $0.29
+*** TURN *** [7s 6s 8c] [3c]
+Marla: checks
+Priya: bets $0.79
+Marla: calls $0.79
+*** RIVER *** [7s 6s 8c 3c] [9h]
+Marla: checks
+Priya: checks
+*** SHOW DOWN ***
+Hero: shows [Ad Kd]
+Marla: shows [7d 7h]
+Priya: shows [2d 5s]
+Priya collected $1.13 from pot
+Priya collected $1.64 from pot
+*** SUMMARY ***
+Total pot $2.77 | Rake $0.00
+Board [7s 6s 8c 3c 9h]
+
+Holdem-ML Hand #1005:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($2.00 in chips)
+Seat 2: Marla ($0.73 in chips)
+Seat 3: Devon ($1.95 in chips)
+Seat 4: Priya ($5.32 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Kc 8h]
+Dealt to Marla [Ac 2c]
+Dealt to Devon [2s Ks]
+Dealt to Priya [7d 5c]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: checks
+*** FLOP *** [4d Ad Kh]
+Priya: checks
+Hero: checks
+*** TURN *** [4d Ad Kh] [7h]
+Priya: bets $0.10
+Hero: calls $0.10
+*** RIVER *** [4d Ad Kh 7h] [Th]
+Priya: bets $0.16
+Hero: calls $0.16
+*** SHOW DOWN ***
+Hero: shows [Kc 8h]
+Priya: shows [7d 5c]
+Hero collected $0.57 from pot
+*** SUMMARY ***
+Total pot $0.57 | Rake $0.00
+Board [4d Ad Kh 7h Th]
+
+Holdem-ML Hand #1006:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($2.29 in chips)
+Seat 2: Marla ($0.73 in chips)
+Seat 3: Devon ($1.94 in chips)
+Seat 4: Priya ($5.04 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [9c 3h]
+Dealt to Marla [As 2h]
+Dealt to Devon [3d 8d]
+Dealt to Priya [8h 7s]
+Marla: folds
+Devon: folds
+Priya: folds
+Uncalled bet ($0.01) returned to Hero
+Hero collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0.00
+
+Holdem-ML Hand #1007:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($2.30 in chips)
+Seat 2: Marla ($0.73 in chips)
+Seat 3: Devon ($1.94 in chips)
+Seat 4: Priya ($5.03 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Ah 5h]
+Dealt to Marla [9s Jc]
+Dealt to Devon [Jh Qd]
+Dealt to Priya [2h Ac]
+Devon: folds
+Priya: raises $0.04 to $0.04
+Hero: calls $0.03
+Marla: calls $0.02
+*** FLOP *** [Th 3c Jd]
+Hero: checks
+Marla: bets $0.08
+Priya: calls $0.08
+Hero: raises $0.32 to $0.32
+Marla: folds
+Priya: folds
+Uncalled bet ($0.24) returned to Hero
+Hero collected $0.36 from pot
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.00
+Board [Th 3c Jd]
+
+Holdem-ML Hand #1008:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($2.54 in chips)
+Seat 2: Marla ($0.61 in chips)
+Seat 3: Devon ($1.94 in chips)
+Seat 4: Priya ($4.91 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Ts Jc]
+Dealt to Marla [3h 4d]
+Dealt to Devon [9h Tc]
+Dealt to Priya [6d 4s]
+Priya: calls $0.02
+Hero: calls $0.02
+Marla: folds
+Devon: checks
+*** FLOP *** [4h 7h 3d]
+Devon: checks
+Priya: bets $0.02
+Hero: folds
+Devon: folds
+Uncalled bet ($0.02) returned to Priya
+Priya collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0.00
+Board [4h 7h 3d]
+
+Holdem-ML Hand #1009:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($2.52 in chips)
+Seat 2: Marla ($0.60 in chips)
+Seat 3: Devon ($1.92 in chips)
+Seat 4: Priya ($4.96 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [6h Jc]
+Dealt to Marla [Qc 2d]
+Dealt to Devon [6s Jh]
+Dealt to Priya [Jd Ts]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: checks
+*** FLOP *** [Js 8d 7h]
+Priya: checks
+Hero: checks
+*** TURN *** [Js 8d 7h] [7c]
+Priya: bets $0.02
+Hero: calls $0.02
+*** RIVER *** [Js 8d 7h 7c] [Ad]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [6h Jc]
+Priya: shows [Jd Ts]
+Hero collected $0.04 from pot
+Priya collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.09 | Rake $0.00
+Board [Js 8d 7h 7c Ad]
+
+Holdem-ML Hand #1010:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($2.52 in chips)
+Seat 2: Marla ($0.60 in chips)
+Seat 3: Devon ($1.91 in chips)
+Seat 4: Priya ($4.97 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [2s 6s]
+Dealt to Marla [4s Th]
+Dealt to Devon [Ac Jh]
+Dealt to Priya [Kh 2h]
+Marla: folds
+Devon: folds
+Priya: calls $0.01
+Hero: checks
+*** FLOP *** [8s 8d Jc]
+Priya: checks
+Hero: checks
+*** TURN *** [8s 8d Jc] [2d]
+Priya: checks
+Hero: checks
+*** RIVER *** [8s 8d Jc 2d] [Ah]
+Priya: bets $0.03
+Hero: calls $0.03
+*** SHOW DOWN ***
+Hero: shows [2s 6s]
+Priya: shows [Kh 2h]
+Hero collected $0.05 from pot
+Priya collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.10 | Rake $0.00
+Board [8s 8d Jc 2d Ah]
+
+Holdem-ML Hand #1011:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($2.52 in chips)
+Seat 2: Marla ($0.60 in chips)
+Seat 3: Devon ($1.91 in chips)
+Seat 4: Priya ($4.97 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Th 9s]
+Dealt to Marla [As 5d]
+Dealt to Devon [5c 3d]
+Dealt to Priya [7d Jh]
+Devon: folds
+Priya: folds
+Hero: calls $0.01
+Marla: checks
+*** FLOP *** [Qh 4c Qc]
+Hero: checks
+Marla: bets $0.02
+Hero: folds
+Uncalled bet ($0.02) returned to Marla
+Marla collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0.00
+Board [Qh 4c Qc]
+
+Holdem-ML Hand #1012:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($2.50 in chips)
+Seat 2: Marla ($0.62 in chips)
+Seat 3: Devon ($1.91 in chips)
+Seat 4: Priya ($4.97 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [9h 7h]
+Dealt to Marla [4c 6h]
+Dealt to Devon [Td 3s]
+Dealt to Priya [6d Kd]
+Priya: raises $0.04 to $0.04
+Hero: calls $0.04
+Marla: folds
+Devon: folds
+*** FLOP *** [2c Jc Qc]
+Priya: checks
+Hero: checks
+*** TURN *** [2c Jc Qc] [Jh]
+Priya: bets $0.11
+Hero: calls $0.11
+*** RIVER *** [2c Jc Qc Jh] [Tc]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [9h 7h]
+Priya: shows [6d Kd]
+Priya collected $0.33 from pot
+*** SUMMARY ***
+Total pot $0.33 | Rake $0.00
+Board [2c Jc Qc Jh Tc]
+
+Holdem-ML Hand #1013:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($2.35 in chips)
+Seat 2: Marla ($0.61 in chips)
+Seat 3: Devon ($1.89 in chips)
+Seat 4: Priya ($5.15 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Qd 2h]
+Dealt to Marla [Qc 2d]
+Dealt to Devon [4s Ah]
+Dealt to Priya [8s 6c]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: checks
+*** FLOP *** [7c 9h Tc]
+Priya: bets $0.10
+Hero: calls $0.10
+*** TURN *** [7c 9h Tc] [9s]
+Priya: bets $0.08
+Hero: calls $0.08
+*** RIVER *** [7c 9h Tc 9s] [Kd]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [Qd 2h]
+Priya: shows [8s 6c]
+Priya collected $0.41 from pot
+*** SUMMARY ***
+Total pot $0.41 | Rake $0.00
+Board [7c 9h Tc 9s Kd]
+
+Holdem-ML Hand #1014:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($2.15 in chips)
+Seat 2: Marla ($0.61 in chips)
+Seat 3: Devon ($1.88 in chips)
+Seat 4: Priya ($5.36 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [8h 6d]
+Dealt to Marla [Kc 2s]
+Dealt to Devon [5s Kd]
+Dealt to Priya [Ad 5d]
+Marla: folds
+Devon: folds
+Priya: raises $0.04 to $0.05
+Hero: calls $0.03
+*** FLOP *** [Th 4h Js]
+Priya: checks
+Hero: checks
+*** TURN *** [Th 4h Js] [Tc]
+Priya: checks
+Hero: checks
+*** RIVER *** [Th 4h Js Tc] [6h]
+Priya: bets $0.03
+Hero: calls $0.03
+*** SHOW DOWN ***
+Hero: shows [8h 6d]
+Priya: shows [Ad 5d]
+Hero collected $0.16 from pot
+*** SUMMARY ***
+Total pot $0.16 | Rake $0.00
+Board [Th 4h Js Tc 6h]
+
+Holdem-ML Hand #1015:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($2.23 in chips)
+Seat 2: Marla ($0.61 in chips)
+Seat 3: Devon ($1.88 in chips)
+Seat 4: Priya ($5.28 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [4s Qc]
+Dealt to Marla [2c Ah]
+Dealt to Devon [Qd Qs]
+Dealt to Priya [4d 4h]
+Devon: calls $0.02
+Priya: raises $0.07 to $0.07
+Hero: calls $0.06
+Marla: calls $0.05
+Devon: calls $0.05
+*** FLOP *** [5c 7s 8d]
+Hero: checks
+Marla: checks
+Devon: checks
+Priya: bets $0.18
+Hero: calls $0.18
+Marla: folds
+Devon: calls $0.18
+*** TURN *** [5c 7s 8d] [9c]
+Hero: checks
+Devon: checks
+Priya: checks
+*** RIVER *** [5c 7s 8d 9c] [8s]
+Hero: checks
+Devon: checks
+Priya: bets $0.27
+Hero: calls $0.27
+Devon: calls $0.27
+*** SHOW DOWN ***
+Hero: shows [4s Qc]
+Devon: shows [Qd Qs]
+Priya: shows [4d 4h]
+Devon collected $1.63 from pot
+*** SUMMARY ***
+Total pot $1.63 | Rake $0.00
+Board [5c 7s 8d 9c 8s]
+
+Holdem-ML Hand #1016:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($1.71 in chips)
+Seat 2: Marla ($0.54 in chips)
+Seat 3: Devon ($2.99 in chips)
+Seat 4: Priya ($4.76 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Qh 4h]
+Dealt to Marla [7h 3c]
+Dealt to Devon [Kd 7d]
+Dealt to Priya [6c 7s]
+Priya: calls $0.02
+Hero: calls $0.02
+Marla: calls $0.01
+Devon: checks
+*** FLOP *** [Jd Jc Tc]
+Marla: checks
+Devon: checks
+Priya: bets $0.08
+Hero: calls $0.08
+Marla: folds
+Devon: folds
+*** TURN *** [Jd Jc Tc] [Th]
+Priya: bets $0.24
+Hero: calls $0.24
+*** RIVER *** [Jd Jc Tc Th] [Qc]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [Qh 4h]
+Priya: shows [6c 7s]
+Hero collected $0.72 from pot
+*** SUMMARY ***
+Total pot $0.72 | Rake $0.00
+Board [Jd Jc Tc Th Qc]
+
+Holdem-ML Hand #1017:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($2.09 in chips)
+Seat 2: Marla ($0.52 in chips)
+Seat 3: Devon ($2.97 in chips)
+Seat 4: Priya ($4.42 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Th Qc]
+Dealt to Marla [Ah 5h]
+Dealt to Devon [4d Jh]
+Dealt to Priya [Qs 5c]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: checks
+*** FLOP *** [Qh 6c 4h]
+Priya: bets $0.03
+Hero: calls $0.03
+*** TURN *** [Qh 6c 4h] [7c]
+Priya: checks
+Hero: checks
+*** RIVER *** [Qh 6c 4h 7c] [3s]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [Th Qc]
+Priya: shows [Qs 5c]
+Priya collected $0.11 from pot
+*** SUMMARY ***
+Total pot $0.11 | Rake $0.00
+Board [Qh 6c 4h 7c 3s]
+
+Holdem-ML Hand #1018:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($2.04 in chips)
+Seat 2: Marla ($0.52 in chips)
+Seat 3: Devon ($2.96 in chips)
+Seat 4: Priya ($4.48 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Qs 3s]
+Dealt to Marla [Ad Ah]
+Dealt to Devon [8s Kd]
+Dealt to Priya [4h Qd]
+Marla: raises $0.04 to $0.04
+Devon: folds
+Priya: raises $0.06 to $0.07
+Hero: raises $0.17 to $0.19
+Marla: raises $0.30 to $0.34
+Priya: calls $0.27
+Hero: calls $0.15
+*** FLOP *** [Ks Js Jh]
+Priya: checks
+Hero: checks
+Marla: checks
+*** TURN *** [Ks Js Jh] [6h]
+Priya: checks
+Hero: checks
+Marla: checks
+*** RIVER *** [Ks Js Jh 6h] [5s]
+Priya: bets $0.34
+Hero: calls $0.34
+Marla: calls $0.18
+*** SHOW DOWN ***
+Hero: shows [Qs 3s]
+Marla: shows [Ad Ah]
+Priya: shows [4h Qd]
+Hero collected $1.56 from pot
+Hero collected $0.32 from pot
+*** SUMMARY ***
+Total pot $1.88 | Rake $0.00
+Board [Ks Js Jh 6h 5s]
+
+Holdem-ML Hand #1019:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($3.24 in chips)
+Seat 2: Marla ($2.00 in chips)
+Seat 3: Devon ($2.96 in chips)
+Seat 4: Priya ($3.80 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [5s Ks]
+Dealt to Marla [3d 2s]
+Dealt to Devon [Td 2d]
+Dealt to Priya [Ts 2h]
+Devon: folds
+Priya: raises $0.05 to $0.05
+Hero: calls $0.04
+Marla: folds
+*** FLOP *** [8h 6s Qc]
+Hero: checks
+Priya: checks
+*** TURN *** [8h 6s Qc] [4c]
+Hero: checks
+Priya: bets $0.12
+Hero: raises $0.24 to $0.24
+Priya: calls $0.12
+*** RIVER *** [8h 6s Qc 4c] [6d]
+Hero: checks
+Priya: checks
+*** SHOW DOWN ***
+Hero: shows [5s Ks]
+Priya: shows [Ts 2h]
+Hero collected $0.60 from pot
+*** SUMMARY ***
+Total pot $0.60 | Rake $0.00
+Board [8h 6s Qc 4c 6d]
+
+Holdem-ML Hand #1020:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($3.55 in chips)
+Seat 2: Marla ($1.98 in chips)
+Seat 3: Devon ($2.96 in chips)
+Seat 4: Priya ($3.51 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [5s 6h]
+Dealt to Marla [As 7h]
+Dealt to Devon [4s Jd]
+Dealt to Priya [5c 6d]
+Priya: raises $0.04 to $0.04
+Hero: calls $0.04
+Marla: calls $0.03
+Devon: folds
+*** FLOP *** [2c Qs 9h]
+Marla: checks
+Priya: checks
+Hero: checks
+*** TURN *** [2c Qs 9h] [8d]
+Marla: checks
+Priya: checks
+Hero: checks
+*** RIVER *** [2c Qs 9h 8d] [Ks]
+Marla: checks
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [5s 6h]
+Marla: shows [As 7h]
+Priya: shows [5c 6d]
+Marla collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.14 | Rake $0.00
+Board [2c Qs 9h 8d Ks]
+
+Holdem-ML Hand #1021:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($3.51 in chips)
+Seat 2: Marla ($2.08 in chips)
+Seat 3: Devon ($2.94 in chips)
+Seat 4: Priya ($3.47 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Ah 7h]
+Dealt to Marla [7c 6d]
+Dealt to Devon [7s Jc]
+Dealt to Priya [2s 9s]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: checks
+*** FLOP *** [3s 8h 8s]
+Priya: checks
+Hero: checks
+*** TURN *** [3s 8h 8s] [2c]
+Priya: bets $0.03
+Hero: calls $0.03
+*** RIVER *** [3s 8h 8s 2c] [8c]
+Priya: bets $0.07
+Hero: calls $0.07
+*** SHOW DOWN ***
+Hero: shows [Ah 7h]
+Priya: shows [2s 9s]
+Priya collected $0.25 from pot
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.00
+Board [3s 8h 8s 2c 8c]
+
+Holdem-ML Hand #1022:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($3.39 in chips)
+Seat 2: Marla ($2.08 in chips)
+Seat 3: Devon ($2.93 in chips)
+Seat 4: Priya ($3.60 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Ks Td]
+Dealt to Marla [4s 6h]
+Dealt to Devon [Qs 5h]
+Dealt to Priya [3c 8h]
+Marla: folds
+Devon: folds
+Priya: calls $0.01
+Hero: checks
+*** FLOP *** [7s Qd 9s]
+Priya: checks
+Hero: checks
+*** TURN *** [7s Qd 9s] [9c]
+Priya: bets $0.02
+Hero: calls $0.02
+*** RIVER *** [7s Qd 9s 9c] [5d]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [Ks Td]
+Priya: shows [3c 8h]
+Hero collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.08 | Rake $0.00
+Board [7s Qd 9s 9c 5d]
+
+Holdem-ML Hand #1023:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($3.43 in chips)
+Seat 2: Marla ($2.08 in chips)
+Seat 3: Devon ($2.93 in chips)
+Seat 4: Priya ($3.56 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [3d 7s]
+Dealt to Marla [Jc Ac]
+Dealt to Devon [3c 7h]
+Dealt to Priya [2s 6c]
+Devon: folds
+Priya: raises $0.07 to $0.07
+Hero: calls $0.06
+Marla: calls $0.05
+*** FLOP *** [Tc 5d 4s]
+Hero: checks
+Marla: checks
+Priya: checks
+*** TURN *** [Tc 5d 4s] [2h]
+Hero: checks
+Marla: checks
+Priya: checks
+*** RIVER *** [Tc 5d 4s 2h] [Kc]
+Hero: checks
+Marla: bets $0.14
+Priya: calls $0.14
+Hero: calls $0.14
+*** SHOW DOWN ***
+Hero: shows [3d 7s]
+Marla: shows [Jc Ac]
+Priya: shows [2s 6c]
+Priya collected $0.63 from pot
+*** SUMMARY ***
+Total pot $0.63 | Rake $0.00
+Board [Tc 5d 4s 2h Kc]
+
+Holdem-ML Hand #1024:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($3.22 in chips)
+Seat 2: Marla ($1.87 in chips)
+Seat 3: Devon ($2.93 in chips)
+Seat 4: Priya ($3.98 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Ah 6h]
+Dealt to Marla [7h 5h]
+Dealt to Devon [6c 4h]
+Dealt to Priya [Jh 8s]
+Priya: raises $0.05 to $0.05
+Hero: calls $0.05
+Marla: folds
+Devon: folds
+*** FLOP *** [8d Js Kc]
+Priya: bets $0.13
+Hero: calls $0.13
+*** TURN *** [8d Js Kc] [Td]
+Priya: bets $0.39
+Hero: calls $0.39
+*** RIVER *** [8d Js Kc Td] [4c]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [Ah 6h]
+Priya: shows [Jh 8s]
+Priya collected $1.17 from pot
+*** SUMMARY ***
+Total pot $1.17 | Rake $0.00
+Board [8d Js Kc Td 4c]
+
+Holdem-ML Hand #1025:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($2.65 in chips)
+Seat 2: Marla ($1.86 in chips)
+Seat 3: Devon ($2.91 in chips)
+Seat 4: Priya ($4.58 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [7c 9s]
+Dealt to Marla [7s Qh]
+Dealt to Devon [Tc 5s]
+Dealt to Priya [7d 5h]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: checks
+*** FLOP *** [9h 4h Td]
+Priya: checks
+Hero: checks
+*** TURN *** [9h 4h Td] [6s]
+Priya: checks
+Hero: checks
+*** RIVER *** [9h 4h Td 6s] [8s]
+Priya: bets $0.03
+Hero: folds
+Uncalled bet ($0.03) returned to Priya
+Priya collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0.00
+Board [9h 4h Td 6s 8s]
+
+Holdem-ML Hand #1026:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($2.63 in chips)
+Seat 2: Marla ($1.86 in chips)
+Seat 3: Devon ($2.90 in chips)
+Seat 4: Priya ($4.61 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [2h 4d]
+Dealt to Marla [5h 5s]
+Dealt to Devon [As 4c]
+Dealt to Priya [Ts 7h]
+Marla: folds
+Devon: folds
+Priya: folds
+Uncalled bet ($0.01) returned to Hero
+Hero collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0.00
+
+Holdem-ML Hand #1027:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($2.64 in chips)
+Seat 2: Marla ($1.86 in chips)
+Seat 3: Devon ($2.90 in chips)
+Seat 4: Priya ($4.60 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [3s Jh]
+Dealt to Marla [4c 9h]
+Dealt to Devon [Td Ad]
+Dealt to Priya [Kh 8c]
+Devon: folds
+Priya: folds
+Hero: calls $0.01
+Marla: checks
+*** FLOP *** [5h Qs 2s]
+Hero: checks
+Marla: checks
+*** TURN *** [5h Qs 2s] [3h]
+Hero: checks
+Marla: checks
+*** RIVER *** [5h Qs 2s 3h] [2d]
+Hero: checks
+Marla: checks
+*** SHOW DOWN ***
+Hero: shows [3s Jh]
+Marla: shows [4c 9h]
+Hero collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0.00
+Board [5h Qs 2s 3h 2d]
+
+Holdem-ML Hand #1028:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($2.66 in chips)
+Seat 2: Marla ($1.84 in chips)
+Seat 3: Devon ($2.90 in chips)
+Seat 4: Priya ($4.60 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [9c 5h]
+Dealt to Marla [8c 3d]
+Dealt to Devon [Qc 4c]
+Dealt to Priya [8h As]
+Priya: raises $0.04 to $0.04
+Hero: calls $0.04
+Marla: folds
+Devon: folds
+*** FLOP *** [Qs 9h 8d]
+Priya: bets $0.04
+Hero: calls $0.04
+*** TURN *** [Qs 9h 8d] [7h]
+Priya: bets $0.06
+Hero: folds
+Uncalled bet ($0.06) returned to Priya
+Priya collected $0.19 from pot
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.00
+Board [Qs 9h 8d 7h]
+
+Holdem-ML Hand #1029:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($2.58 in chips)
+Seat 2: Marla ($1.83 in chips)
+Seat 3: Devon ($2.88 in chips)
+Seat 4: Priya ($4.71 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [5c Ks]
+Dealt to Marla [3s 9c]
+Dealt to Devon [Qh 4h]
+Dealt to Priya [3d Kh]
+Hero: folds
+Marla: folds
+Devon: calls $0.01
+Priya: checks
+*** FLOP *** [Jd 5h 8s]
+Devon: checks
+Priya: checks
+*** TURN *** [Jd 5h 8s] [4s]
+Devon: checks
+Priya: checks
+*** RIVER *** [Jd 5h 8s 4s] [6h]
+Devon: checks
+Priya: checks
+*** SHOW DOWN ***
+Devon: shows [Qh 4h]
+Priya: shows [3d Kh]
+Devon collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0.00
+Board [Jd 5h 8s 4s 6h]
+
+Holdem-ML Hand #1030:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($2.58 in chips)
+Seat 2: Marla ($1.83 in chips)
+Seat 3: Devon ($2.90 in chips)
+Seat 4: Priya ($4.69 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [7d 5d]
+Dealt to Marla [Jh Kh]
+Dealt to Devon [4s Ac]
+Dealt to Priya [6h 8h]
+Marla: folds
+Devon: folds
+Priya: raises $0.03 to $0.04
+Hero: folds
+Uncalled bet ($0.02) returned to Priya
+Priya collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0.00
+
+Holdem-ML Hand #1031:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($2.56 in chips)
+Seat 2: Marla ($1.83 in chips)
+Seat 3: Devon ($2.90 in chips)
+Seat 4: Priya ($4.71 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [2s Kh]
+Dealt to Marla [Qc 7c]
+Dealt to Devon [4h Js]
+Dealt to Priya [7h Ah]
+Devon: folds
+Priya: raises $0.05 to $0.05
+Hero: calls $0.04
+Marla: calls $0.03
+*** FLOP *** [Jd 3c 4c]
+Hero: bets $0.10
+Marla: calls $0.10
+Priya: raises $0.40 to $0.40
+Hero: calls $0.30
+Marla: calls $0.30
+*** TURN *** [Jd 3c 4c] [9h]
+Hero: checks
+Marla: checks
+Priya: checks
+*** RIVER *** [Jd 3c 4c 9h] [6d]
+Hero: checks
+Marla: checks
+Priya: checks
+*** SHOW DOWN ***
+Hero: shows [2s Kh]
+Marla: shows [Qc 7c]
+Priya: shows [7h Ah]
+Priya collected $1.35 from pot
+*** SUMMARY ***
+Total pot $1.35 | Rake $0.00
+Board [Jd 3c 4c 9h 6d]
+
+Holdem-ML Hand #1032:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($2.11 in chips)
+Seat 2: Marla ($1.38 in chips)
+Seat 3: Devon ($2.90 in chips)
+Seat 4: Priya ($5.61 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [8c As]
+Dealt to Marla [Ks Ts]
+Dealt to Devon [8d Qs]
+Dealt to Priya [4s 2h]
+Priya: raises $0.04 to $0.04
+Hero: raises $0.15 to $0.15
+Marla: folds
+Devon: folds
+Priya: folds
+Uncalled bet ($0.11) returned to Hero
+Hero collected $0.11 from pot
+*** SUMMARY ***
+Total pot $0.11 | Rake $0.00
+
+Holdem-ML Hand #1033:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($2.18 in chips)
+Seat 2: Marla ($1.37 in chips)
+Seat 3: Devon ($2.88 in chips)
+Seat 4: Priya ($5.57 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [2c Qs]
+Dealt to Marla [7c Qh]
+Dealt to Devon [9s As]
+Dealt to Priya [Qd 8d]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: checks
+*** FLOP *** [5c 9d 7d]
+Priya: bets $0.02
+Hero: raises $0.05 to $0.05
+Priya: raises $0.18 to $0.20
+Hero: calls $0.15
+*** TURN *** [5c 9d 7d] [3c]
+Priya: bets $0.15
+Hero: calls $0.15
+*** RIVER *** [5c 9d 7d 3c] [Qc]
+Priya: bets $0.50
+Hero: calls $0.50
+*** SHOW DOWN ***
+Hero: shows [2c Qs]
+Priya: shows [Qd 8d]
+Priya collected $1.75 from pot
+*** SUMMARY ***
+Total pot $1.75 | Rake $0.00
+Board [5c 9d 7d 3c Qc]
+
+Holdem-ML Hand #1034:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($1.31 in chips)
+Seat 2: Marla ($1.37 in chips)
+Seat 3: Devon ($2.87 in chips)
+Seat 4: Priya ($6.45 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [6c 2c]
+Dealt to Marla [Kh 2s]
+Dealt to Devon [6s Ad]
+Dealt to Priya [9d Tc]
+Marla: folds
+Devon: folds
+Priya: calls $0.01
+Hero: checks
+*** FLOP *** [4c 8s Js]
+Priya: bets $0.02
+Hero: calls $0.02
+*** TURN *** [4c 8s Js] [3d]
+Priya: bets $0.05
+Hero: calls $0.05
+*** RIVER *** [4c 8s Js 3d] [5c]
+Priya: bets $0.18
+Hero: calls $0.18
+*** SHOW DOWN ***
+Hero: shows [6c 2c]
+Priya: shows [9d Tc]
+Hero collected $0.54 from pot
+*** SUMMARY ***
+Total pot $0.54 | Rake $0.00
+Board [4c 8s Js 3d 5c]
+
+Holdem-ML Hand #1035:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($1.58 in chips)
+Seat 2: Marla ($1.37 in chips)
+Seat 3: Devon ($2.87 in chips)
+Seat 4: Priya ($6.18 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [9h 4h]
+Dealt to Marla [3s 5c]
+Dealt to Devon [9s Ts]
+Dealt to Priya [5h Kd]
+Devon: folds
+Priya: folds
+Hero: calls $0.01
+Marla: checks
+*** FLOP *** [Ad 6h 9d]
+Hero: bets $0.02
+Marla: folds
+Uncalled bet ($0.02) returned to Hero
+Hero collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0.00
+Board [Ad 6h 9d]
+
+Holdem-ML Hand #1036:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($1.60 in chips)
+Seat 2: Marla ($1.35 in chips)
+Seat 3: Devon ($2.87 in chips)
+Seat 4: Priya ($6.18 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [7c 9h]
+Dealt to Marla [Ac 2h]
+Dealt to Devon [Kc Qc]
+Dealt to Priya [5d 9c]
+Priya: raises $0.05 to $0.05
+Hero: calls $0.05
+Marla: folds
+Devon: folds
+*** FLOP *** [Td Jd 4d]
+Priya: checks
+Hero: checks
+*** TURN *** [Td Jd 4d] [5h]
+Priya: bets $0.13
+Hero: calls $0.13
+*** RIVER *** [Td Jd 4d 5h] [7d]
+Priya: bets $0.26
+Hero: calls $0.26
+*** SHOW DOWN ***
+Hero: shows [7c 9h]
+Priya: shows [5d 9c]
+Priya collected $0.91 from pot
+*** SUMMARY ***
+Total pot $0.91 | Rake $0.00
+Board [Td Jd 4d 5h 7d]
+
+Holdem-ML Hand #1037:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($1.16 in chips)
+Seat 2: Marla ($1.34 in chips)
+Seat 3: Devon ($2.85 in chips)
+Seat 4: Priya ($6.65 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [5s Qh]
+Dealt to Marla [3c Ah]
+Dealt to Devon [4d Qc]
+Dealt to Priya [Kd 5h]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: checks
+*** FLOP *** [8h 9h Ad]
+Priya: checks
+Hero: checks
+*** TURN *** [8h 9h Ad] [8c]
+Priya: checks
+Hero: checks
+*** RIVER *** [8h 9h Ad 8c] [4h]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [5s Qh]
+Priya: shows [Kd 5h]
+Priya collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0.00
+Board [8h 9h Ad 8c 4h]
+
+Holdem-ML Hand #1038:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($1.14 in chips)
+Seat 2: Marla ($1.34 in chips)
+Seat 3: Devon ($2.84 in chips)
+Seat 4: Priya ($6.68 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [5c Ac]
+Dealt to Marla [Js Jd]
+Dealt to Devon [2c Ks]
+Dealt to Priya [9c 5d]
+Marla: folds
+Devon: folds
+Priya: calls $0.01
+Hero: checks
+*** FLOP *** [Qh Tc 4h]
+Priya: checks
+Hero: checks
+*** TURN *** [Qh Tc 4h] [3h]
+Priya: checks
+Hero: checks
+*** RIVER *** [Qh Tc 4h 3h] [Kc]
+Priya: bets $0.02
+Hero: calls $0.02
+*** SHOW DOWN ***
+Hero: shows [5c Ac]
+Priya: shows [9c 5d]
+Hero collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.08 | Rake $0.00
+Board [Qh Tc 4h 3h Kc]
+
+Holdem-ML Hand #1039:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($1.18 in chips)
+Seat 2: Marla ($1.34 in chips)
+Seat 3: Devon ($2.84 in chips)
+Seat 4: Priya ($6.64 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [5c 6h]
+Dealt to Marla [5s Ac]
+Dealt to Devon [Qd 8c]
+Dealt to Priya [2d 4s]
+Devon: folds
+Priya: folds
+Hero: calls $0.01
+Marla: raises $0.03 to $0.05
+Hero: calls $0.03
+*** FLOP *** [3s Th 9h]
+Hero: checks
+Marla: checks
+*** TURN *** [3s Th 9h] [5h]
+Hero: bets $0.07
+Marla: calls $0.07
+*** RIVER *** [3s Th 9h 5h] [Ah]
+Hero: checks
+Marla: checks
+*** SHOW DOWN ***
+Hero: shows [5c 6h]
+Marla: shows [5s Ac]
+Hero collected $0.24 from pot
+*** SUMMARY ***
+Total pot $0.24 | Rake $0.00
+Board [3s Th 9h 5h Ah]
+
+Holdem-ML Hand #1040:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($1.30 in chips)
+Seat 2: Marla ($1.22 in chips)
+Seat 3: Devon ($2.84 in chips)
+Seat 4: Priya ($6.64 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [3s 9d]
+Dealt to Marla [8d 5c]
+Dealt to Devon [Ad 3h]
+Dealt to Priya [5h 9c]
+Priya: calls $0.02
+Hero: calls $0.02
+Marla: folds
+Devon: checks
+*** FLOP *** [Ts Kh Kd]
+Devon: checks
+Priya: checks
+Hero: checks
+*** TURN *** [Ts Kh Kd] [2c]
+Devon: checks
+Priya: checks
+Hero: checks
+*** RIVER *** [Ts Kh Kd 2c] [Jh]
+Devon: checks
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [3s 9d]
+Devon: shows [Ad 3h]
+Priya: shows [5h 9c]
+Devon collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0.00
+Board [Ts Kh Kd 2c Jh]
+
+Holdem-ML Hand #1041:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($1.28 in chips)
+Seat 2: Marla ($1.21 in chips)
+Seat 3: Devon ($2.89 in chips)
+Seat 4: Priya ($6.62 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [5c 6s]
+Dealt to Marla [9c 7d]
+Dealt to Devon [8c 8h]
+Dealt to Priya [7s 5h]
+Hero: calls $0.02
+Marla: folds
+Devon: calls $0.01
+Priya: raises $0.02 to $0.04
+Hero: calls $0.02
+Devon: calls $0.02
+*** FLOP *** [Qs Tc 6d]
+Devon: checks
+Priya: checks
+Hero: checks
+*** TURN *** [Qs Tc 6d] [7h]
+Devon: checks
+Priya: checks
+Hero: checks
+*** RIVER *** [Qs Tc 6d 7h] [Qc]
+Devon: checks
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [5c 6s]
+Devon: shows [8c 8h]
+Priya: shows [7s 5h]
+Devon collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0.00
+Board [Qs Tc 6d 7h Qc]
+
+Holdem-ML Hand #1042:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($1.24 in chips)
+Seat 2: Marla ($1.21 in chips)
+Seat 3: Devon ($2.97 in chips)
+Seat 4: Priya ($6.58 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [6h Ts]
+Dealt to Marla [6c 9h]
+Dealt to Devon [5d Kh]
+Dealt to Priya [Qd 8c]
+Marla: folds
+Devon: folds
+Priya: folds
+Uncalled bet ($0.01) returned to Hero
+Hero collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0.00
+
+Holdem-ML Hand #1043:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($1.25 in chips)
+Seat 2: Marla ($1.21 in chips)
+Seat 3: Devon ($2.97 in chips)
+Seat 4: Priya ($6.57 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [4d Jc]
+Dealt to Marla [2s Tc]
+Dealt to Devon [6c 5h]
+Dealt to Priya [4s Td]
+Devon: folds
+Priya: raises $0.05 to $0.05
+Hero: calls $0.04
+Marla: calls $0.03
+*** FLOP *** [Ac Qc 4h]
+Hero: checks
+Marla: checks
+Priya: bets $0.15
+Hero: calls $0.15
+Marla: folds
+*** TURN *** [Ac Qc 4h] [6d]
+Hero: checks
+Priya: bets $0.15
+Hero: calls $0.15
+*** RIVER *** [Ac Qc 4h 6d] [Ks]
+Hero: checks
+Priya: bets $0.25
+Hero: calls $0.25
+*** SHOW DOWN ***
+Hero: shows [4d Jc]
+Priya: shows [4s Td]
+Hero collected $0.62 from pot
+Priya collected $0.62 from pot
+*** SUMMARY ***
+Total pot $1.25 | Rake $0.00
+Board [Ac Qc 4h 6d Ks]
+
+Holdem-ML Hand #1044:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($1.28 in chips)
+Seat 2: Marla ($1.16 in chips)
+Seat 3: Devon ($2.97 in chips)
+Seat 4: Priya ($6.59 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Ah 9s]
+Dealt to Marla [Jh 4d]
+Dealt to Devon [Qd Ts]
+Dealt to Priya [3d 3c]
+Priya: calls $0.02
+Hero: calls $0.02
+Marla: calls $0.01
+Devon: checks
+*** FLOP *** [5c 8s 6s]
+Marla: checks
+Devon: checks
+Priya: checks
+Hero: checks
+*** TURN *** [5c 8s 6s] [7h]
+Marla: checks
+Devon: checks
+Priya: checks
+Hero: bets $0.05
+Marla: calls $0.05
+Devon: folds
+Priya: calls $0.05
+*** RIVER *** [5c 8s 6s 7h] [8c]
+Marla: bets $0.08
+Priya: folds
+Hero: calls $0.08
+*** SHOW DOWN ***
+Hero: shows [Ah 9s]
+Marla: shows [Jh 4d]
+Hero collected $0.39 from pot
+*** SUMMARY ***
+Total pot $0.39 | Rake $0.00
+Board [5c 8s 6s 7h 8c]
+
+Holdem-ML Hand #1045:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($1.52 in chips)
+Seat 2: Marla ($1.01 in chips)
+Seat 3: Devon ($2.95 in chips)
+Seat 4: Priya ($6.52 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [5c 2s]
+Dealt to Marla [Tc 2h]
+Dealt to Devon [9s 6d]
+Dealt to Priya [Qs Jc]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: raises $0.03 to $0.05
+Hero: calls $0.03
+*** FLOP *** [4s 8s Jh]
+Priya: checks
+Hero: checks
+*** TURN *** [4s 8s Jh] [8h]
+Priya: bets $0.07
+Hero: calls $0.07
+*** RIVER *** [4s 8s Jh 8h] [9d]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [5c 2s]
+Priya: shows [Qs Jc]
+Priya collected $0.25 from pot
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.00
+Board [4s 8s Jh 8h 9d]
+
+Holdem-ML Hand #1046:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($1.40 in chips)
+Seat 2: Marla ($1.01 in chips)
+Seat 3: Devon ($2.94 in chips)
+Seat 4: Priya ($6.65 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [4s 3c]
+Dealt to Marla [Ah Kh]
+Dealt to Devon [7s As]
+Dealt to Priya [6c 8c]
+Marla: folds
+Devon: folds
+Priya: calls $0.01
+Hero: checks
+*** FLOP *** [4d 9d 4h]
+Priya: checks
+Hero: checks
+*** TURN *** [4d 9d 4h] [3s]
+Priya: bets $0.02
+Hero: calls $0.02
+*** RIVER *** [4d 9d 4h 3s] [Tc]
+Priya: bets $0.03
+Hero: calls $0.03
+*** SHOW DOWN ***
+Hero: shows [4s 3c]
+Priya: shows [6c 8c]
+Hero collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.14 | Rake $0.00
+Board [4d 9d 4h 3s Tc]
+
+Holdem-ML Hand #1047:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($1.47 in chips)
+Seat 2: Marla ($1.01 in chips)
+Seat 3: Devon ($2.94 in chips)
+Seat 4: Priya ($6.58 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Qs Ts]
+Dealt to Marla [8h Js]
+Dealt to Devon [3s Td]
+Dealt to Priya [Ad Ks]
+Devon: folds
+Priya: raises $0.12 to $0.12
+Hero: calls $0.11
+Marla: calls $0.10
+*** FLOP *** [9d 6c Jc]
+Hero: checks
+Marla: checks
+Priya: bets $0.72
+Hero: calls $0.72
+Marla: calls $0.72
+*** TURN *** [9d 6c Jc] [Qd]
+Hero: checks
+Marla: checks
+Priya: checks
+*** RIVER *** [9d 6c Jc Qd] [2h]
+Hero: checks
+Marla: checks
+Priya: checks
+*** SHOW DOWN ***
+Hero: shows [Qs Ts]
+Marla: shows [8h Js]
+Priya: shows [Ad Ks]
+Hero collected $2.52 from pot
+*** SUMMARY ***
+Total pot $2.52 | Rake $0.00
+Board [9d 6c Jc Qd 2h]
+
+Holdem-ML Hand #1048:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($3.15 in chips)
+Seat 2: Marla ($0.17 in chips)
+Seat 3: Devon ($2.94 in chips)
+Seat 4: Priya ($5.74 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [8h 9c]
+Dealt to Marla [Qs 4c]
+Dealt to Devon [8c 8s]
+Dealt to Priya [9h 3h]
+Priya: calls $0.02
+Hero: calls $0.02
+Marla: calls $0.01
+Devon: checks
+*** FLOP *** [Qh 3c 9d]
+Marla: checks
+Devon: checks
+Priya: bets $0.05
+Hero: folds
+Marla: raises $0.11 to $0.11
+Devon: folds
+Priya: calls $0.06
+*** TURN *** [Qh 3c 9d] [2h]
+Marla: checks
+Priya: bets $0.20
+Marla: calls $0.04
+*** SHOW DOWN ***
+Marla: shows [Qs 4c]
+Priya: shows [9h 3h]
+Uncalled bet ($0.16) returned to Priya
+Priya collected $0.38 from pot
+*** SUMMARY ***
+Total pot $0.38 | Rake $0.00
+Board [Qh 3c 9d 2h 5h]
+
+Holdem-ML Hand #1049:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($3.13 in chips)
+Seat 2: Marla ($2.00 in chips)
+Seat 3: Devon ($2.92 in chips)
+Seat 4: Priya ($5.95 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [8s 5d]
+Dealt to Marla [9s Qc]
+Dealt to Devon [6s 7h]
+Dealt to Priya [3c 2s]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: checks
+*** FLOP *** [Kc 9d 5s]
+Priya: checks
+Hero: checks
+*** TURN *** [Kc 9d 5s] [Ac]
+Priya: bets $0.02
+Hero: calls $0.02
+*** RIVER *** [Kc 9d 5s Ac] [3s]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [8s 5d]
+Priya: shows [3c 2s]
+Hero collected $0.09 from pot
+*** SUMMARY ***
+Total pot $0.09 | Rake $0.00
+Board [Kc 9d 5s Ac 3s]
+
+Holdem-ML Hand #1050:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($3.18 in chips)
+Seat 2: Marla ($2.00 in chips)
+Seat 3: Devon ($2.91 in chips)
+Seat 4: Priya ($5.91 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [7d 9s]
+Dealt to Marla [6s 4d]
+Dealt to Devon [Ad 6d]
+Dealt to Priya [3s 8c]
+Marla: folds
+Devon: folds
+Priya: folds
+Uncalled bet ($0.01) returned to Hero
+Hero collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0.00
+
+Holdem-ML Hand #1051:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($3.19 in chips)
+Seat 2: Marla ($2.00 in chips)
+Seat 3: Devon ($2.91 in chips)
+Seat 4: Priya ($5.90 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [2d 7d]
+Dealt to Marla [Td 5d]
+Dealt to Devon [Ts Ad]
+Dealt to Priya [8d 5c]
+Devon: folds
+Priya: folds
+Hero: calls $0.01
+Marla: raises $0.02 to $0.04
+Hero: calls $0.02
+*** FLOP *** [5h 8h 7h]
+Hero: checks
+Marla: checks
+*** TURN *** [5h 8h 7h] [Js]
+Hero: checks
+Marla: checks
+*** RIVER *** [5h 8h 7h Js] [8c]
+Hero: checks
+Marla: checks
+*** SHOW DOWN ***
+Hero: shows [2d 7d]
+Marla: shows [Td 5d]
+Hero collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.08 | Rake $0.00
+Board [5h 8h 7h Js 8c]
+
+Holdem-ML Hand #1052:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($3.23 in chips)
+Seat 2: Marla ($1.96 in chips)
+Seat 3: Devon ($2.91 in chips)
+Seat 4: Priya ($5.90 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [4d Jc]
+Dealt to Marla [Ad 7c]
+Dealt to Devon [9s 2c]
+Dealt to Priya [6h 7h]
+Priya: raises $0.04 to $0.04
+Hero: calls $0.04
+Marla: calls $0.03
+Devon: folds
+*** FLOP *** [7s Ac Qs]
+Marla: bets $0.09
+Priya: raises $0.41 to $0.41
+Hero: calls $0.41
+Marla: raises $1.22 to $1.31
+Priya: raises $2.99 to $3.40
+Hero: calls $2.78
+Marla: calls $0.61
+*** SHOW DOWN ***
+Hero: shows [4d Jc]
+Marla: shows [Ad 7c]
+Priya: shows [6h 7h]
+Uncalled bet ($0.21) returned to Priya
+Marla collected $5.90 from pot
+Hero collected $2.54 from pot
+*** SUMMARY ***
+Total pot $8.44 | Rake $0.00
+Board [7s Ac Qs 2h Js]
+
+Holdem-ML Hand #1053:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($2.54 in chips)
+Seat 2: Marla ($5.90 in chips)
+Seat 3: Devon ($2.89 in chips)
+Seat 4: Priya ($2.67 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [4s 2d]
+Dealt to Marla [7s Ac]
+Dealt to Devon [3d 6s]
+Dealt to Priya [5d 4c]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: checks
+*** FLOP *** [9s Qs Ts]
+Priya: bets $0.02
+Hero: calls $0.02
+*** TURN *** [9s Qs Ts] [9c]
+Priya: bets $0.09
+Hero: calls $0.09
+*** RIVER *** [9s Qs Ts 9c] [Qc]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [4s 2d]
+Priya: shows [5d 4c]
+Hero collected $0.13 from pot
+Priya collected $0.13 from pot
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.00
+Board [9s Qs Ts 9c Qc]
+
+Holdem-ML Hand #1054:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($2.54 in chips)
+Seat 2: Marla ($5.90 in chips)
+Seat 3: Devon ($2.88 in chips)
+Seat 4: Priya ($2.68 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Js 2h]
+Dealt to Marla [Kh Ac]
+Dealt to Devon [Jc Jd]
+Dealt to Priya [As 5c]
+Marla: folds
+Devon: calls $0.02
+Priya: raises $0.07 to $0.08
+Hero: calls $0.06
+Devon: calls $0.06
+*** FLOP *** [4d 4s 9d]
+Priya: checks
+Hero: checks
+Devon: checks
+*** TURN *** [4d 4s 9d] [5s]
+Priya: bets $0.16
+Hero: calls $0.16
+Devon: calls $0.16
+*** RIVER *** [4d 4s 9d 5s] [8s]
+Priya: bets $0.72
+Hero: calls $0.72
+Devon: calls $0.72
+*** SHOW DOWN ***
+Hero: shows [Js 2h]
+Devon: shows [Jc Jd]
+Priya: shows [As 5c]
+Devon collected $2.88 from pot
+*** SUMMARY ***
+Total pot $2.88 | Rake $0.00
+Board [4d 4s 9d 5s 8s]
+
+Holdem-ML Hand #1055:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($1.58 in chips)
+Seat 2: Marla ($5.90 in chips)
+Seat 3: Devon ($4.80 in chips)
+Seat 4: Priya ($1.72 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [3d Kd]
+Dealt to Marla [9s 2h]
+Dealt to Devon [4s Ks]
+Dealt to Priya [Tc 5d]
+Devon: folds
+Priya: calls $0.02
+Hero: calls $0.01
+Marla: checks
+*** FLOP *** [6c 3h 7c]
+Hero: checks
+Marla: checks
+Priya: checks
+*** TURN *** [6c 3h 7c] [6h]
+Hero: checks
+Marla: bets $0.04
+Priya: folds
+Hero: calls $0.04
+*** RIVER *** [6c 3h 7c 6h] [3c]
+Hero: bets $0.05
+Marla: folds
+Uncalled bet ($0.05) returned to Hero
+Hero collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.14 | Rake $0.00
+Board [6c 3h 7c 6h 3c]
+
+Holdem-ML Hand #1056:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($1.66 in chips)
+Seat 2: Marla ($5.84 in chips)
+Seat 3: Devon ($4.80 in chips)
+Seat 4: Priya ($1.70 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Kc Ac]
+Dealt to Marla [Ad 2d]
+Dealt to Devon [2h 3d]
+Dealt to Priya [Kd 6c]
+Priya: calls $0.02
+Hero: calls $0.02
+Marla: folds
+Devon: checks
+*** FLOP *** [6s 6d 7h]
+Devon: checks
+Priya: bets $0.02
+Hero: calls $0.02
+Devon: folds
+*** TURN *** [6s 6d 7h] [4s]
+Priya: bets $0.04
+Hero: calls $0.04
+*** RIVER *** [6s 6d 7h 4s] [7d]
+Priya: bets $0.13
+Hero: calls $0.13
+*** SHOW DOWN ***
+Hero: shows [Kc Ac]
+Priya: shows [Kd 6c]
+Priya collected $0.45 from pot
+*** SUMMARY ***
+Total pot $0.45 | Rake $0.00
+Board [6s 6d 7h 4s 7d]
+
+Holdem-ML Hand #1057:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($1.45 in chips)
+Seat 2: Marla ($5.83 in chips)
+Seat 3: Devon ($4.78 in chips)
+Seat 4: Priya ($1.94 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Qs 8s]
+Dealt to Marla [Th 6d]
+Dealt to Devon [9s 2c]
+Dealt to Priya [3h 9d]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: raises $0.03 to $0.05
+Hero: calls $0.03
+*** FLOP *** [8d Ac Jc]
+Priya: checks
+Hero: checks
+*** TURN *** [8d Ac Jc] [5h]
+Priya: checks
+Hero: checks
+*** RIVER *** [8d Ac Jc 5h] [2d]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [Qs 8s]
+Priya: shows [3h 9d]
+Hero collected $0.11 from pot
+*** SUMMARY ***
+Total pot $0.11 | Rake $0.00
+Board [8d Ac Jc 5h 2d]
+
+Holdem-ML Hand #1058:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($1.51 in chips)
+Seat 2: Marla ($5.83 in chips)
+Seat 3: Devon ($4.77 in chips)
+Seat 4: Priya ($1.89 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Jc 8s]
+Dealt to Marla [Qd Ad]
+Dealt to Devon [Qh 6h]
+Dealt to Priya [2c 4s]
+Marla: folds
+Devon: folds
+Priya: calls $0.01
+Hero: checks
+*** FLOP *** [Ah Kh Tc]
+Priya: checks
+Hero: checks
+*** TURN *** [Ah Kh Tc] [Qc]
+Priya: checks
+Hero: checks
+*** RIVER *** [Ah Kh Tc Qc] [Qs]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [Jc 8s]
+Priya: shows [2c 4s]
+Hero collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0.00
+Board [Ah Kh Tc Qc Qs]
+
+Holdem-ML Hand #1059:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($1.53 in chips)
+Seat 2: Marla ($5.83 in chips)
+Seat 3: Devon ($4.77 in chips)
+Seat 4: Priya ($1.87 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Kh Td]
+Dealt to Marla [9h Qs]
+Dealt to Devon [8d 8c]
+Dealt to Priya [6c 7h]
+Devon: folds
+Priya: folds
+Hero: folds
+Uncalled bet ($0.01) returned to Marla
+Marla collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0.00
+
+Holdem-ML Hand #1060:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($1.52 in chips)
+Seat 2: Marla ($5.84 in chips)
+Seat 3: Devon ($4.77 in chips)
+Seat 4: Priya ($1.87 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [4h 5s]
+Dealt to Marla [8s Ac]
+Dealt to Devon [Qs Th]
+Dealt to Priya [9h 3c]
+Priya: calls $0.02
+Hero: calls $0.02
+Marla: calls $0.01
+Devon: checks
+*** FLOP *** [7s 2h Ah]
+Marla: bets $0.03
+Devon: folds
+Priya: raises $0.17 to $0.17
+Hero: calls $0.17
+Marla: raises $0.73 to $0.76
+Priya: folds
+Hero: calls $0.59
+*** TURN *** [7s 2h Ah] [5h]
+Marla: checks
+Hero: checks
+*** RIVER *** [7s 2h Ah 5h] [Td]
+Marla: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [4h 5s]
+Marla: shows [8s Ac]
+Marla collected $1.77 from pot
+*** SUMMARY ***
+Total pot $1.77 | Rake $0.00
+Board [7s 2h Ah 5h Td]
+
+Holdem-ML Hand #1061:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($0.74 in chips)
+Seat 2: Marla ($6.83 in chips)
+Seat 3: Devon ($4.75 in chips)
+Seat 4: Priya ($1.68 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Kd 8d]
+Dealt to Marla [2c As]
+Dealt to Devon [Ac Qc]
+Dealt to Priya [Tc 4d]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: checks
+*** FLOP *** [7s 6d 6c]
+Priya: checks
+Hero: checks
+*** TURN *** [7s 6d 6c] [Td]
+Priya: bets $0.03
+Hero: calls $0.03
+*** RIVER *** [7s 6d 6c Td] [9c]
+Priya: bets $0.07
+Hero: calls $0.07
+*** SHOW DOWN ***
+Hero: shows [Kd 8d]
+Priya: shows [Tc 4d]
+Hero collected $0.25 from pot
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.00
+Board [7s 6d 6c Td 9c]
+
+Holdem-ML Hand #1062:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($0.87 in chips)
+Seat 2: Marla ($6.83 in chips)
+Seat 3: Devon ($4.74 in chips)
+Seat 4: Priya ($1.56 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [6s Kh]
+Dealt to Marla [Ts 4c]
+Dealt to Devon [9d Ah]
+Dealt to Priya [8c 9c]
+Marla: folds
+Devon: folds
+Priya: raises $0.03 to $0.04
+Hero: calls $0.02
+*** FLOP *** [6d Kc Jh]
+Priya: checks
+Hero: checks
+*** TURN *** [6d Kc Jh] [4d]
+Priya: bets $0.03
+Hero: calls $0.03
+*** RIVER *** [6d Kc Jh 4d] [Ks]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [6s Kh]
+Priya: shows [8c 9c]
+Hero collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.14 | Rake $0.00
+Board [6d Kc Jh 4d Ks]
+
+Holdem-ML Hand #1063:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($0.94 in chips)
+Seat 2: Marla ($6.83 in chips)
+Seat 3: Devon ($4.74 in chips)
+Seat 4: Priya ($1.49 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [2s 5c]
+Dealt to Marla [9d 2h]
+Dealt to Devon [9h Jd]
+Dealt to Priya [8s Kc]
+Devon: folds
+Priya: raises $0.05 to $0.05
+Hero: calls $0.04
+Marla: folds
+*** FLOP *** [6d Js 2d]
+Hero: checks
+Priya: bets $0.04
+Hero: calls $0.04
+*** TURN *** [6d Js 2d] [As]
+Hero: checks
+Priya: checks
+*** RIVER *** [6d Js 2d As] [3c]
+Hero: checks
+Priya: checks
+*** SHOW DOWN ***
+Hero: shows [2s 5c]
+Priya: shows [8s Kc]
+Hero collected $0.20 from pot
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.00
+Board [6d Js 2d As 3c]
+
+Holdem-ML Hand #1064:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($1.05 in chips)
+Seat 2: Marla ($6.81 in chips)
+Seat 3: Devon ($4.74 in chips)
+Seat 4: Priya ($1.40 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [As 6c]
+Dealt to Marla [Tc 3d]
+Dealt to Devon [4c 8s]
+Dealt to Priya [Js 8d]
+Priya: calls $0.02
+Hero: raises $0.07 to $0.07
+Marla: folds
+Devon: folds
+Priya: calls $0.05
+*** FLOP *** [Kc Qd 3s]
+Priya: bets $0.17
+Hero: raises $0.68 to $0.68
+Priya: calls $0.51
+*** TURN *** [Kc Qd 3s] [7h]
+Priya: checks
+Hero: checks
+*** RIVER *** [Kc Qd 3s 7h] [Th]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [As 6c]
+Priya: shows [Js 8d]
+Hero collected $1.53 from pot
+*** SUMMARY ***
+Total pot $1.53 | Rake $0.00
+Board [Kc Qd 3s 7h Th]
+
+Holdem-ML Hand #1065:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($1.83 in chips)
+Seat 2: Marla ($6.80 in chips)
+Seat 3: Devon ($4.72 in chips)
+Seat 4: Priya ($0.65 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [7d 3s]
+Dealt to Marla [9c Kd]
+Dealt to Devon [Ts 8d]
+Dealt to Priya [Qd Qc]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: raises $0.05 to $0.07
+Hero: calls $0.05
+*** FLOP *** [5h Ac 7s]
+Priya: bets $0.05
+Hero: raises $0.13 to $0.13
+Priya: calls $0.08
+*** TURN *** [5h Ac 7s] [Qh]
+Priya: bets $0.41
+Hero: calls $0.41
+*** RIVER *** [5h Ac 7s Qh] [Tc]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [7d 3s]
+Priya: shows [Qd Qc]
+Priya collected $1.23 from pot
+*** SUMMARY ***
+Total pot $1.23 | Rake $0.00
+Board [5h Ac 7s Qh Tc]
+
+Holdem-ML Hand #1066:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($1.22 in chips)
+Seat 2: Marla ($6.80 in chips)
+Seat 3: Devon ($4.71 in chips)
+Seat 4: Priya ($1.27 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [8s 6c]
+Dealt to Marla [3c Kc]
+Dealt to Devon [5d 3h]
+Dealt to Priya [4d 9d]
+Marla: folds
+Devon: folds
+Priya: folds
+Uncalled bet ($0.01) returned to Hero
+Hero collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0.00
+
+Holdem-ML Hand #1067:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($1.23 in chips)
+Seat 2: Marla ($6.80 in chips)
+Seat 3: Devon ($4.71 in chips)
+Seat 4: Priya ($1.26 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [8s Ad]
+Dealt to Marla [4h 5d]
+Dealt to Devon [Td Th]
+Dealt to Priya [Js 6s]
+Devon: folds
+Priya: folds
+Hero: calls $0.01
+Marla: checks
+*** FLOP *** [As 9c 8c]
+Hero: checks
+Marla: checks
+*** TURN *** [As 9c 8c] [3d]
+Hero: checks
+Marla: checks
+*** RIVER *** [As 9c 8c 3d] [Kd]
+Hero: bets $0.04
+Marla: folds
+Uncalled bet ($0.04) returned to Hero
+Hero collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0.00
+Board [As 9c 8c 3d Kd]
+
+Holdem-ML Hand #1068:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($1.25 in chips)
+Seat 2: Marla ($6.78 in chips)
+Seat 3: Devon ($4.71 in chips)
+Seat 4: Priya ($1.26 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Jh Jd]
+Dealt to Marla [Js Jc]
+Dealt to Devon [8h 4h]
+Dealt to Priya [2s 9s]
+Priya: raises $0.04 to $0.04
+Hero: calls $0.04
+Marla: folds
+Devon: folds
+*** FLOP *** [Qh Ad 5d]
+Priya: checks
+Hero: bets $0.04
+Priya: calls $0.04
+*** TURN *** [Qh Ad 5d] [9h]
+Priya: bets $0.06
+Hero: calls $0.06
+*** RIVER *** [Qh Ad 5d 9h] [Qc]
+Priya: bets $0.10
+Hero: calls $0.10
+*** SHOW DOWN ***
+Hero: shows [Jh Jd]
+Priya: shows [2s 9s]
+Hero collected $0.51 from pot
+*** SUMMARY ***
+Total pot $0.51 | Rake $0.00
+Board [Qh Ad 5d 9h Qc]
+
+Holdem-ML Hand #1069:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($1.52 in chips)
+Seat 2: Marla ($6.77 in chips)
+Seat 3: Devon ($4.69 in chips)
+Seat 4: Priya ($1.02 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Qs 8s]
+Dealt to Marla [Kc 8d]
+Dealt to Devon [9c 2h]
+Dealt to Priya [4s 3d]
+Hero: folds
+Marla: folds
+Devon: folds
+Uncalled bet ($0.01) returned to Priya
+Priya collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0.00
+
+Holdem-ML Hand #1070:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($1.52 in chips)
+Seat 2: Marla ($6.77 in chips)
+Seat 3: Devon ($4.68 in chips)
+Seat 4: Priya ($1.03 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [2d Ac]
+Dealt to Marla [As Ah]
+Dealt to Devon [Qd 4h]
+Dealt to Priya [Td 4d]
+Marla: folds
+Devon: folds
+Priya: calls $0.01
+Hero: checks
+*** FLOP *** [Qs Ts 5s]
+Priya: checks
+Hero: checks
+*** TURN *** [Qs Ts 5s] [8d]
+Priya: checks
+Hero: checks
+*** RIVER *** [Qs Ts 5s 8d] [Qh]
+Priya: bets $0.03
+Hero: calls $0.03
+*** SHOW DOWN ***
+Hero: shows [2d Ac]
+Priya: shows [Td 4d]
+Priya collected $0.10 from pot
+*** SUMMARY ***
+Total pot $0.10 | Rake $0.00
+Board [Qs Ts 5s 8d Qh]
+
+Holdem-ML Hand #1071:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($1.47 in chips)
+Seat 2: Marla ($6.77 in chips)
+Seat 3: Devon ($4.68 in chips)
+Seat 4: Priya ($1.08 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [6s Jd]
+Dealt to Marla [4d 9c]
+Dealt to Devon [7h Qh]
+Dealt to Priya [8h 5h]
+Devon: folds
+Priya: raises $0.07 to $0.07
+Hero: calls $0.06
+Marla: folds
+*** FLOP *** [9s 2h 7d]
+Hero: checks
+Priya: checks
+*** TURN *** [9s 2h 7d] [4c]
+Hero: checks
+Priya: checks
+*** RIVER *** [9s 2h 7d 4c] [Ts]
+Hero: checks
+Priya: bets $0.16
+Hero: calls $0.16
+*** SHOW DOWN ***
+Hero: shows [6s Jd]
+Priya: shows [8h 5h]
+Hero collected $0.48 from pot
+*** SUMMARY ***
+Total pot $0.48 | Rake $0.00
+Board [9s 2h 7d 4c Ts]
+
+Holdem-ML Hand #1072:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($1.72 in chips)
+Seat 2: Marla ($6.75 in chips)
+Seat 3: Devon ($4.68 in chips)
+Seat 4: Priya ($0.85 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [9s 7c]
+Dealt to Marla [7h 4h]
+Dealt to Devon [3s 9d]
+Dealt to Priya [Ts 2d]
+Priya: calls $0.02
+Hero: raises $0.04 to $0.04
+Marla: folds
+Devon: folds
+Priya: calls $0.02
+*** FLOP *** [8h Td Qh]
+Priya: checks
+Hero: checks
+*** TURN *** [8h Td Qh] [Jh]
+Priya: checks
+Hero: checks
+*** RIVER *** [8h Td Qh Jh] [3d]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [9s 7c]
+Priya: shows [Ts 2d]
+Hero collected $0.11 from pot
+*** SUMMARY ***
+Total pot $0.11 | Rake $0.00
+Board [8h Td Qh Jh 3d]
+
+Holdem-ML Hand #1073:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($1.79 in chips)
+Seat 2: Marla ($6.74 in chips)
+Seat 3: Devon ($4.66 in chips)
+Seat 4: Priya ($0.81 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [3c As]
+Dealt to Marla [9d Ah]
+Dealt to Devon [2h Js]
+Dealt to Priya [3d 2d]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: raises $0.03 to $0.05
+Hero: calls $0.03
+*** FLOP *** [8s 8h 8d]
+Priya: checks
+Hero: checks
+*** TURN *** [8s 8h 8d] [6d]
+Priya: checks
+Hero: checks
+*** RIVER *** [8s 8h 8d 6d] [5d]
+Priya: bets $0.07
+Hero: calls $0.07
+*** SHOW DOWN ***
+Hero: shows [3c As]
+Priya: shows [3d 2d]
+Priya collected $0.25 from pot
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.00
+Board [8s 8h 8d 6d 5d]
+
+Holdem-ML Hand #1074:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($1.67 in chips)
+Seat 2: Marla ($6.74 in chips)
+Seat 3: Devon ($4.65 in chips)
+Seat 4: Priya ($0.94 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Qc 7c]
+Dealt to Marla [5c 3h]
+Dealt to Devon [As 9d]
+Dealt to Priya [Th 3d]
+Marla: folds
+Devon: folds
+Priya: raises $0.04 to $0.05
+Hero: calls $0.03
+*** FLOP *** [5h Kc Jc]
+Priya: checks
+Hero: checks
+*** TURN *** [5h Kc Jc] [Qs]
+Priya: checks
+Hero: checks
+*** RIVER *** [5h Kc Jc Qs] [Jd]
+Priya: bets $0.07
+Hero: calls $0.07
+*** SHOW DOWN ***
+Hero: shows [Qc 7c]
+Priya: shows [Th 3d]
+Hero collected $0.24 from pot
+*** SUMMARY ***
+Total pot $0.24 | Rake $0.00
+Board [5h Kc Jc Qs Jd]
+
+Holdem-ML Hand #1075:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($1.79 in chips)
+Seat 2: Marla ($6.74 in chips)
+Seat 3: Devon ($4.65 in chips)
+Seat 4: Priya ($0.82 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Td Js]
+Dealt to Marla [7c 6d]
+Dealt to Devon [5s Kd]
+Dealt to Priya [8d Ah]
+Devon: folds
+Priya: raises $0.04 to $0.04
+Hero: calls $0.03
+Marla: folds
+*** FLOP *** [4s 5c Ad]
+Hero: checks
+Priya: bets $0.07
+Hero: calls $0.07
+*** TURN *** [4s 5c Ad] [Qd]
+Hero: checks
+Priya: bets $0.08
+Hero: calls $0.08
+*** RIVER *** [4s 5c Ad Qd] [7s]
+Hero: checks
+Priya: bets $0.13
+Hero: calls $0.13
+*** SHOW DOWN ***
+Hero: shows [Td Js]
+Priya: shows [8d Ah]
+Priya collected $0.66 from pot
+*** SUMMARY ***
+Total pot $0.66 | Rake $0.00
+Board [4s 5c Ad Qd 7s]
+
+Holdem-ML Hand #1076:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($1.47 in chips)
+Seat 2: Marla ($6.72 in chips)
+Seat 3: Devon ($4.65 in chips)
+Seat 4: Priya ($1.16 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [3s Jh]
+Dealt to Marla [Ad 8h]
+Dealt to Devon [Ah As]
+Dealt to Priya [2h 2c]
+Priya: calls $0.02
+Hero: calls $0.02
+Marla: calls $0.01
+Devon: checks
+*** FLOP *** [6s Jc 6c]
+Marla: checks
+Devon: checks
+Priya: checks
+Hero: checks
+*** TURN *** [6s Jc 6c] [Tc]
+Marla: checks
+Devon: checks
+Priya: checks
+Hero: checks
+*** RIVER *** [6s Jc 6c Tc] [2d]
+Marla: checks
+Devon: checks
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [3s Jh]
+Marla: shows [Ad 8h]
+Devon: shows [Ah As]
+Priya: shows [2h 2c]
+Priya collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.08 | Rake $0.00
+Board [6s Jc 6c Tc 2d]
+
+Holdem-ML Hand #1077:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($1.45 in chips)
+Seat 2: Marla ($6.70 in chips)
+Seat 3: Devon ($4.63 in chips)
+Seat 4: Priya ($1.22 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Ah Jc]
+Dealt to Marla [5c Qd]
+Dealt to Devon [Jh Th]
+Dealt to Priya [Js 6d]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: raises $0.02 to $0.04
+Hero: folds
+Uncalled bet ($0.02) returned to Priya
+Priya collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0.00
+
+Holdem-ML Hand #1078:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($1.43 in chips)
+Seat 2: Marla ($6.70 in chips)
+Seat 3: Devon ($4.62 in chips)
+Seat 4: Priya ($1.25 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [9s Kh]
+Dealt to Marla [Qc 7s]
+Dealt to Devon [Ah As]
+Dealt to Priya [6h 2h]
+Marla: folds
+Devon: raises $0.05 to $0.05
+Priya: folds
+Hero: calls $0.03
+*** FLOP *** [6c Kd Jd]
+Hero: checks
+Devon: bets $0.04
+Hero: calls $0.04
+*** TURN *** [6c Kd Jd] [4h]
+Hero: checks
+Devon: bets $0.19
+Hero: calls $0.19
+*** RIVER *** [6c Kd Jd 4h] [6s]
+Hero: checks
+Devon: bets $0.57
+Hero: calls $0.57
+*** SHOW DOWN ***
+Hero: shows [9s Kh]
+Devon: shows [Ah As]
+Devon collected $1.71 from pot
+*** SUMMARY ***
+Total pot $1.71 | Rake $0.00
+Board [6c Kd Jd 4h 6s]
+
+Holdem-ML Hand #1079:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($0.58 in chips)
+Seat 2: Marla ($6.70 in chips)
+Seat 3: Devon ($5.48 in chips)
+Seat 4: Priya ($1.24 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [7c Ts]
+Dealt to Marla [As 7s]
+Dealt to Devon [7h Kh]
+Dealt to Priya [9s 4c]
+Devon: folds
+Priya: folds
+Hero: calls $0.01
+Marla: checks
+*** FLOP *** [5c 8d 4s]
+Hero: checks
+Marla: checks
+*** TURN *** [5c 8d 4s] [2s]
+Hero: checks
+Marla: checks
+*** RIVER *** [5c 8d 4s 2s] [9h]
+Hero: checks
+Marla: checks
+*** SHOW DOWN ***
+Hero: shows [7c Ts]
+Marla: shows [As 7s]
+Marla collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0.00
+Board [5c 8d 4s 2s 9h]
+
+Holdem-ML Hand #1080:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($0.56 in chips)
+Seat 2: Marla ($6.72 in chips)
+Seat 3: Devon ($5.48 in chips)
+Seat 4: Priya ($1.24 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [9d Kd]
+Dealt to Marla [2c 9h]
+Dealt to Devon [3c Qc]
+Dealt to Priya [As 5c]
+Priya: raises $0.04 to $0.04
+Hero: calls $0.04
+Marla: folds
+Devon: folds
+*** FLOP *** [Ac Ah Qh]
+Priya: checks
+Hero: checks
+*** TURN *** [Ac Ah Qh] [Kc]
+Priya: checks
+Hero: checks
+*** RIVER *** [Ac Ah Qh Kc] [Th]
+Priya: bets $0.11
+Hero: calls $0.11
+*** SHOW DOWN ***
+Hero: shows [9d Kd]
+Priya: shows [As 5c]
+Priya collected $0.33 from pot
+*** SUMMARY ***
+Total pot $0.33 | Rake $0.00
+Board [Ac Ah Qh Kc Th]
+
+Holdem-ML Hand #1081:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($0.41 in chips)
+Seat 2: Marla ($6.71 in chips)
+Seat 3: Devon ($5.46 in chips)
+Seat 4: Priya ($1.42 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [6h 3h]
+Dealt to Marla [9s 3d]
+Dealt to Devon [6d Kh]
+Dealt to Priya [4h Jc]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: checks
+*** FLOP *** [Js Kc Tc]
+Priya: bets $0.03
+Hero: raises $0.07 to $0.07
+Priya: calls $0.04
+*** TURN *** [Js Kc Tc] [7h]
+Priya: bets $0.13
+Hero: calls $0.13
+*** RIVER *** [Js Kc Tc 7h] [Th]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [6h 3h]
+Priya: shows [4h Jc]
+Priya collected $0.45 from pot
+*** SUMMARY ***
+Total pot $0.45 | Rake $0.00
+Board [Js Kc Tc 7h Th]
+
+Holdem-ML Hand #1082:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($0.19 in chips)
+Seat 2: Marla ($6.71 in chips)
+Seat 3: Devon ($5.45 in chips)
+Seat 4: Priya ($1.65 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [2d 8d]
+Dealt to Marla [4d 2c]
+Dealt to Devon [Qc 9d]
+Dealt to Priya [4s 6h]
+Marla: folds
+Devon: folds
+Priya: raises $0.04 to $0.05
+Hero: calls $0.03
+*** FLOP *** [4c 9h 3d]
+Priya: checks
+Hero: bets $0.10
+Priya: calls $0.10
+*** TURN *** [4c 9h 3d] [6c]
+Priya: bets $0.10
+Hero: calls $0.04
+*** SHOW DOWN ***
+Hero: shows [2d 8d]
+Priya: shows [4s 6h]
+Uncalled bet ($0.06) returned to Priya
+Priya collected $0.38 from pot
+*** SUMMARY ***
+Total pot $0.38 | Rake $0.00
+Board [4c 9h 3d 6c 7c]
+
+Holdem-ML Hand #1083:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($2.00 in chips)
+Seat 2: Marla ($6.71 in chips)
+Seat 3: Devon ($5.45 in chips)
+Seat 4: Priya ($1.84 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Ts Ac]
+Dealt to Marla [Qd 9s]
+Dealt to Devon [Qc 2h]
+Dealt to Priya [Jd 4h]
+Devon: folds
+Priya: calls $0.02
+Hero: raises $0.03 to $0.04
+Marla: calls $0.02
+Priya: folds
+*** FLOP *** [Tc 9h 2s]
+Hero: checks
+Marla: bets $0.03
+Hero: calls $0.03
+*** TURN *** [Tc 9h 2s] [8s]
+Hero: checks
+Marla: checks
+*** RIVER *** [Tc 9h 2s 8s] [7h]
+Hero: checks
+Marla: checks
+*** SHOW DOWN ***
+Hero: shows [Ts Ac]
+Marla: shows [Qd 9s]
+Hero collected $0.16 from pot
+*** SUMMARY ***
+Total pot $0.16 | Rake $0.00
+Board [Tc 9h 2s 8s 7h]
+
+Holdem-ML Hand #1084:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($2.09 in chips)
+Seat 2: Marla ($6.64 in chips)
+Seat 3: Devon ($5.45 in chips)
+Seat 4: Priya ($1.82 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Ac Qs]
+Dealt to Marla [6h Ks]
+Dealt to Devon [4h Kh]
+Dealt to Priya [2c 7d]
+Priya: folds
+Hero: calls $0.02
+Marla: calls $0.01
+Devon: checks
+*** FLOP *** [Kc 9c 8s]
+Marla: bets $0.04
+Devon: calls $0.04
+Hero: calls $0.04
+*** TURN *** [Kc 9c 8s] [Kd]
+Marla: checks
+Devon: bets $0.06
+Hero: calls $0.06
+Marla: raises $0.42 to $0.42
+Devon: calls $0.36
+Hero: calls $0.36
+*** RIVER *** [Kc 9c 8s Kd] [Jd]
+Marla: bets $2.88
+Devon: calls $2.88
+Hero: calls $1.61
+*** SHOW DOWN ***
+Hero: shows [Ac Qs]
+Marla: shows [6h Ks]
+Devon: shows [4h Kh]
+Marla collected $3.13 from pot
+Devon collected $3.13 from pot
+Marla collected $1.27 from pot
+Devon collected $1.27 from pot
+*** SUMMARY ***
+Total pot $8.81 | Rake $0.00
+Board [Kc 9c 8s Kd Jd]
+
+Holdem-ML Hand #1085:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($2.00 in chips)
+Seat 2: Marla ($7.69 in chips)
+Seat 3: Devon ($6.49 in chips)
+Seat 4: Priya ($1.82 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [7d 3d]
+Dealt to Marla [Qh 2s]
+Dealt to Devon [5h As]
+Dealt to Priya [9d 8d]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: raises $0.05 to $0.07
+Hero: folds
+Uncalled bet ($0.05) returned to Priya
+Priya collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0.00
+
+Holdem-ML Hand #1086:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($1.98 in chips)
+Seat 2: Marla ($7.69 in chips)
+Seat 3: Devon ($6.48 in chips)
+Seat 4: Priya ($1.85 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Ah 8s]
+Dealt to Marla [5s Ks]
+Dealt to Devon [3d 2h]
+Dealt to Priya [9c Td]
+Marla: folds
+Devon: folds
+Priya: calls $0.01
+Hero: checks
+*** FLOP *** [8h 5h 2c]
+Priya: checks
+Hero: checks
+*** TURN *** [8h 5h 2c] [3s]
+Priya: checks
+Hero: checks
+*** RIVER *** [8h 5h 2c 3s] [6h]
+Priya: checks
+Hero: bets $0.02
+Priya: raises $0.05 to $0.05
+Hero: calls $0.03
+*** SHOW DOWN ***
+Hero: shows [Ah 8s]
+Priya: shows [9c Td]
+Hero collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.14 | Rake $0.00
+Board [8h 5h 2c 3s 6h]
+
+Holdem-ML Hand #1087:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($2.05 in chips)
+Seat 2: Marla ($7.69 in chips)
+Seat 3: Devon ($6.48 in chips)
+Seat 4: Priya ($1.78 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Th 2c]
+Dealt to Marla [Jh Kc]
+Dealt to Devon [Ks 5s]
+Dealt to Priya [Kd 2d]
+Devon: folds
+Priya: raises $0.05 to $0.05
+Hero: calls $0.04
+Marla: calls $0.03
+*** FLOP *** [5h Ts 7h]
+Hero: bets $0.05
+Marla: folds
+Priya: folds
+Uncalled bet ($0.05) returned to Hero
+Hero collected $0.15 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.00
+Board [5h Ts 7h]
+
+Holdem-ML Hand #1088:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($2.15 in chips)
+Seat 2: Marla ($7.64 in chips)
+Seat 3: Devon ($6.48 in chips)
+Seat 4: Priya ($1.73 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [7s 4s]
+Dealt to Marla [3d 9c]
+Dealt to Devon [Qs 6d]
+Dealt to Priya [Ad 2d]
+Priya: raises $0.12 to $0.12
+Hero: raises $0.22 to $0.22
+Marla: folds
+Devon: folds
+Priya: raises $0.57 to $0.69
+Hero: calls $0.47
+*** FLOP *** [9s 8d 8h]
+Priya: bets $0.47
+Hero: calls $0.47
+*** TURN *** [9s 8d 8h] [Td]
+Priya: checks
+Hero: checks
+*** RIVER *** [9s 8d 8h Td] [Ac]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [7s 4s]
+Priya: shows [Ad 2d]
+Priya collected $2.35 from pot
+*** SUMMARY ***
+Total pot $2.35 | Rake $0.00
+Board [9s 8d 8h Td Ac]
+
+Holdem-ML Hand #1089:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($0.99 in chips)
+Seat 2: Marla ($7.63 in chips)
+Seat 3: Devon ($6.46 in chips)
+Seat 4: Priya ($2.92 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [8d Kd]
+Dealt to Marla [7d 6d]
+Dealt to Devon [Tc Qd]
+Dealt to Priya [9d 2d]
+Hero: raises $0.05 to $0.05
+Marla: folds
+Devon: folds
+Priya: folds
+Uncalled bet ($0.03) returned to Hero
+Hero collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0.00
+
+Holdem-ML Hand #1090:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($1.02 in chips)
+Seat 2: Marla ($7.63 in chips)
+Seat 3: Devon ($6.45 in chips)
+Seat 4: Priya ($2.90 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [9d 2d]
+Dealt to Marla [8h 3h]
+Dealt to Devon [Tc 6c]
+Dealt to Priya [5d Ts]
+Marla: folds
+Devon: folds
+Priya: folds
+Uncalled bet ($0.01) returned to Hero
+Hero collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0.00
+
+Holdem-ML Hand #1091:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($1.03 in chips)
+Seat 2: Marla ($7.63 in chips)
+Seat 3: Devon ($6.45 in chips)
+Seat 4: Priya ($2.89 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [6d Ks]
+Dealt to Marla [4s 5s]
+Dealt to Devon [6h Qh]
+Dealt to Priya [Tc Jd]
+Devon: folds
+Priya: raises $0.04 to $0.04
+Hero: calls $0.03
+Marla: calls $0.02
+*** FLOP *** [Th Js Td]
+Hero: bets $0.12
+Marla: folds
+Priya: raises $0.24 to $0.24
+Hero: folds
+Uncalled bet ($0.12) returned to Priya
+Priya collected $0.36 from pot
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.00
+Board [Th Js Td]
+
+Holdem-ML Hand #1092:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($0.87 in chips)
+Seat 2: Marla ($7.59 in chips)
+Seat 3: Devon ($6.45 in chips)
+Seat 4: Priya ($3.09 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Ac 7h]
+Dealt to Marla [As Qh]
+Dealt to Devon [6s Kd]
+Dealt to Priya [2d Ts]
+Priya: raises $0.04 to $0.04
+Hero: calls $0.04
+Marla: calls $0.03
+Devon: folds
+*** FLOP *** [2h 8h Ks]
+Marla: checks
+Priya: checks
+Hero: bets $0.14
+Marla: folds
+Priya: calls $0.14
+*** TURN *** [2h 8h Ks] [5h]
+Priya: bets $0.28
+Hero: calls $0.28
+*** RIVER *** [2h 8h Ks 5h] [9h]
+Priya: bets $0.65
+Hero: calls $0.41
+*** SHOW DOWN ***
+Hero: shows [Ac 7h]
+Priya: shows [2d Ts]
+Uncalled bet ($0.24) returned to Priya
+Hero collected $1.80 from pot
+*** SUMMARY ***
+Total pot $1.80 | Rake $0.00
+Board [2h 8h Ks 5h 9h]
+
+Holdem-ML Hand #1093:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($1.80 in chips)
+Seat 2: Marla ($7.55 in chips)
+Seat 3: Devon ($6.43 in chips)
+Seat 4: Priya ($2.22 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [5c 5h]
+Dealt to Marla [2d 8s]
+Dealt to Devon [2s Td]
+Dealt to Priya [3s 3c]
+Hero: raises $0.05 to $0.05
+Marla: folds
+Devon: folds
+Priya: raises $0.07 to $0.09
+Hero: calls $0.04
+*** FLOP *** [As 3h 7d]
+Priya: checks
+Hero: checks
+*** TURN *** [As 3h 7d] [Qc]
+Priya: bets $0.19
+Hero: calls $0.19
+*** RIVER *** [As 3h 7d Qc] [Th]
+Priya: bets $0.19
+Hero: calls $0.19
+*** SHOW DOWN ***
+Hero: shows [5c 5h]
+Priya: shows [3s 3c]
+Priya collected $0.95 from pot
+*** SUMMARY ***
+Total pot $0.95 | Rake $0.00
+Board [As 3h 7d Qc Th]
+
+Holdem-ML Hand #1094:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($1.33 in chips)
+Seat 2: Marla ($7.55 in chips)
+Seat 3: Devon ($6.42 in chips)
+Seat 4: Priya ($2.70 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Jc 8c]
+Dealt to Marla [3d Qh]
+Dealt to Devon [4d Td]
+Dealt to Priya [8d Js]
+Marla: folds
+Devon: folds
+Priya: raises $0.05 to $0.06
+Hero: raises $0.12 to $0.14
+Priya: folds
+Uncalled bet ($0.08) returned to Hero
+Hero collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0.00
+
+Holdem-ML Hand #1095:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($1.39 in chips)
+Seat 2: Marla ($7.55 in chips)
+Seat 3: Devon ($6.42 in chips)
+Seat 4: Priya ($2.64 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [5s 9c]
+Dealt to Marla [5c Js]
+Dealt to Devon [3c 8d]
+Dealt to Priya [6h 9d]
+Devon: folds
+Priya: raises $0.05 to $0.05
+Hero: calls $0.04
+Marla: calls $0.03
+*** FLOP *** [7d 2c 2s]
+Hero: checks
+Marla: checks
+Priya: bets $0.15
+Hero: raises $0.45 to $0.45
+Marla: folds
+Priya: raises $1.35 to $1.50
+Hero: calls $0.89
+*** SHOW DOWN ***
+Hero: shows [5s 9c]
+Priya: shows [6h 9d]
+Uncalled bet ($0.16) returned to Priya
+Hero collected $1.41 from pot
+Priya collected $1.41 from pot
+*** SUMMARY ***
+Total pot $2.83 | Rake $0.00
+Board [7d 2c 2s 4h Jh]
+
+Holdem-ML Hand #1096:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($1.42 in chips)
+Seat 2: Marla ($7.50 in chips)
+Seat 3: Devon ($6.42 in chips)
+Seat 4: Priya ($2.66 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Jc 7c]
+Dealt to Marla [9c 4h]
+Dealt to Devon [Ad Qs]
+Dealt to Priya [Kh Ac]
+Priya: calls $0.02
+Hero: raises $0.04 to $0.04
+Marla: folds
+Devon: folds
+Priya: calls $0.02
+*** FLOP *** [Td 6s Kd]
+Priya: bets $0.07
+Hero: calls $0.07
+*** TURN *** [Td 6s Kd] [7d]
+Priya: bets $0.08
+Hero: calls $0.08
+*** RIVER *** [Td 6s Kd 7d] [4c]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [Jc 7c]
+Priya: shows [Kh Ac]
+Priya collected $0.41 from pot
+*** SUMMARY ***
+Total pot $0.41 | Rake $0.00
+Board [Td 6s Kd 7d 4c]
+
+Holdem-ML Hand #1097:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($1.23 in chips)
+Seat 2: Marla ($7.49 in chips)
+Seat 3: Devon ($6.40 in chips)
+Seat 4: Priya ($2.88 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [5c 5h]
+Dealt to Marla [Jd Ts]
+Dealt to Devon [Ks 2d]
+Dealt to Priya [4c 8c]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: checks
+*** FLOP *** [4h 9h Ad]
+Priya: bets $0.03
+Hero: calls $0.03
+*** TURN *** [4h 9h Ad] [8d]
+Priya: checks
+Hero: checks
+*** RIVER *** [4h 9h Ad 8d] [8s]
+Priya: bets $0.07
+Hero: calls $0.07
+*** SHOW DOWN ***
+Hero: shows [5c 5h]
+Priya: shows [4c 8c]
+Priya collected $0.25 from pot
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.00
+Board [4h 9h Ad 8d 8s]
+
+Holdem-ML Hand #1098:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($1.11 in chips)
+Seat 2: Marla ($7.49 in chips)
+Seat 3: Devon ($6.39 in chips)
+Seat 4: Priya ($3.01 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [8h 6h]
+Dealt to Marla [Ac 7c]
+Dealt to Devon [6s Ad]
+Dealt to Priya [Qh 2c]
+Marla: folds
+Devon: folds
+Priya: calls $0.01
+Hero: checks
+*** FLOP *** [Jd 2s Td]
+Priya: bets $0.04
+Hero: calls $0.04
+*** TURN *** [Jd 2s Td] [7h]
+Priya: checks
+Hero: checks
+*** RIVER *** [Jd 2s Td 7h] [4s]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [8h 6h]
+Priya: shows [Qh 2c]
+Priya collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0.00
+Board [Jd 2s Td 7h 4s]
+
+Holdem-ML Hand #1099:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($1.05 in chips)
+Seat 2: Marla ($7.49 in chips)
+Seat 3: Devon ($6.39 in chips)
+Seat 4: Priya ($3.07 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [3d 3h]
+Dealt to Marla [Js As]
+Dealt to Devon [Qs 8d]
+Dealt to Priya [7d Th]
+Devon: folds
+Priya: calls $0.02
+Hero: calls $0.01
+Marla: checks
+*** FLOP *** [3s 6c 8h]
+Hero: checks
+Marla: checks
+Priya: checks
+*** TURN *** [3s 6c 8h] [6s]
+Hero: checks
+Marla: checks
+Priya: checks
+*** RIVER *** [3s 6c 8h 6s] [Qd]
+Hero: checks
+Marla: checks
+Priya: checks
+*** SHOW DOWN ***
+Hero: shows [3d 3h]
+Marla: shows [Js As]
+Priya: shows [7d Th]
+Hero collected $0.06 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0.00
+Board [3s 6c 8h 6s Qd]
+
+Holdem-ML Hand #1100:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($1.09 in chips)
+Seat 2: Marla ($7.47 in chips)
+Seat 3: Devon ($6.39 in chips)
+Seat 4: Priya ($3.05 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [5s Td]
+Dealt to Marla [7d Ks]
+Dealt to Devon [Ts Qc]
+Dealt to Priya [8c Qd]
+Priya: raises $0.07 to $0.07
+Hero: calls $0.07
+Marla: folds
+Devon: folds
+*** FLOP *** [Jh 2d 9s]
+Priya: bets $0.06
+Hero: calls $0.06
+*** TURN *** [Jh 2d 9s] [6c]
+Priya: bets $0.19
+Hero: calls $0.19
+*** RIVER *** [Jh 2d 9s 6c] [3c]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [5s Td]
+Priya: shows [8c Qd]
+Priya collected $0.67 from pot
+*** SUMMARY ***
+Total pot $0.67 | Rake $0.00
+Board [Jh 2d 9s 6c 3c]
+
+Holdem-ML Hand #1101:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($0.77 in chips)
+Seat 2: Marla ($7.46 in chips)
+Seat 3: Devon ($6.37 in chips)
+Seat 4: Priya ($3.40 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Kh Jd]
+Dealt to Marla [4c Ad]
+Dealt to Devon [5s Ks]
+Dealt to Priya [7s 9c]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: checks
+*** FLOP *** [Ac 5h 3h]
+Priya: bets $0.03
+Hero: calls $0.03
+*** TURN *** [Ac 5h 3h] [4s]
+Priya: checks
+Hero: checks
+*** RIVER *** [Ac 5h 3h 4s] [6d]
+Priya: bets $0.07
+Hero: raises $0.15 to $0.15
+Priya: raises $0.35 to $0.42
+Hero: calls $0.27
+*** SHOW DOWN ***
+Hero: shows [Kh Jd]
+Priya: shows [7s 9c]
+Priya collected $0.95 from pot
+*** SUMMARY ***
+Total pot $0.95 | Rake $0.00
+Board [Ac 5h 3h 4s 6d]
+
+Holdem-ML Hand #1102:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($0.30 in chips)
+Seat 2: Marla ($7.46 in chips)
+Seat 3: Devon ($6.36 in chips)
+Seat 4: Priya ($3.88 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Ah 4d]
+Dealt to Marla [5s Kd]
+Dealt to Devon [Qc 8h]
+Dealt to Priya [Ks 6s]
+Marla: folds
+Devon: folds
+Priya: raises $0.03 to $0.04
+Hero: calls $0.02
+*** FLOP *** [3h 6c Ac]
+Priya: checks
+Hero: checks
+*** TURN *** [3h 6c Ac] [Jc]
+Priya: checks
+Hero: checks
+*** RIVER *** [3h 6c Ac Jc] [Kh]
+Priya: bets $0.05
+Hero: calls $0.05
+*** SHOW DOWN ***
+Hero: shows [Ah 4d]
+Priya: shows [Ks 6s]
+Priya collected $0.18 from pot
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.00
+Board [3h 6c Ac Jc Kh]
+
+Holdem-ML Hand #1103:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($0.21 in chips)
+Seat 2: Marla ($7.46 in chips)
+Seat 3: Devon ($6.36 in chips)
+Seat 4: Priya ($3.97 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [8c 5h]
+Dealt to Marla [Kc 6d]
+Dealt to Devon [3s 8d]
+Dealt to Priya [Qs 9s]
+Devon: folds
+Priya: folds
+Hero: calls $0.01
+Marla: raises $0.02 to $0.04
+Hero: calls $0.02
+*** FLOP *** [8h Jc Qh]
+Hero: checks
+Marla: checks
+*** TURN *** [8h Jc Qh] [9d]
+Hero: checks
+Marla: checks
+*** RIVER *** [8h Jc Qh 9d] [As]
+Hero: checks
+Marla: checks
+*** SHOW DOWN ***
+Hero: shows [8c 5h]
+Marla: shows [Kc 6d]
+Hero collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.08 | Rake $0.00
+Board [8h Jc Qh 9d As]
+
+Holdem-ML Hand #1104:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($0.25 in chips)
+Seat 2: Marla ($7.42 in chips)
+Seat 3: Devon ($6.36 in chips)
+Seat 4: Priya ($3.97 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [6d 5h]
+Dealt to Marla [2s 3d]
+Dealt to Devon [As Kc]
+Dealt to Priya [2h 6s]
+Priya: calls $0.02
+Hero: calls $0.02
+Marla: folds
+Devon: checks
+*** FLOP *** [7c 8d Kh]
+Devon: checks
+Priya: bets $0.02
+Hero: calls $0.02
+Devon: calls $0.02
+*** TURN *** [7c 8d Kh] [3c]
+Devon: bets $0.09
+Priya: folds
+Hero: calls $0.09
+*** RIVER *** [7c 8d Kh 3c] [9d]
+Devon: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [6d 5h]
+Devon: shows [As Kc]
+Hero collected $0.31 from pot
+*** SUMMARY ***
+Total pot $0.31 | Rake $0.00
+Board [7c 8d Kh 3c 9d]
+
+Holdem-ML Hand #1105:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($0.43 in chips)
+Seat 2: Marla ($7.41 in chips)
+Seat 3: Devon ($6.23 in chips)
+Seat 4: Priya ($3.93 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [2d Qc]
+Dealt to Marla [4s 4c]
+Dealt to Devon [4h 9c]
+Dealt to Priya [7c 3s]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: raises $0.03 to $0.05
+Hero: calls $0.03
+*** FLOP *** [Ts 5d 7h]
+Priya: checks
+Hero: checks
+*** TURN *** [Ts 5d 7h] [7s]
+Priya: bets $0.11
+Hero: calls $0.11
+*** RIVER *** [Ts 5d 7h 7s] [Qd]
+Priya: bets $0.66
+Hero: calls $0.27
+*** SHOW DOWN ***
+Hero: shows [2d Qc]
+Priya: shows [7c 3s]
+Uncalled bet ($0.39) returned to Priya
+Priya collected $0.87 from pot
+*** SUMMARY ***
+Total pot $0.87 | Rake $0.00
+Board [Ts 5d 7h 7s Qd]
+
+Holdem-ML Hand #1106:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($2.00 in chips)
+Seat 2: Marla ($7.41 in chips)
+Seat 3: Devon ($6.22 in chips)
+Seat 4: Priya ($4.37 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Qh 6s]
+Dealt to Marla [Ad 5h]
+Dealt to Devon [Jh Kh]
+Dealt to Priya [Ac Th]
+Marla: folds
+Devon: folds
+Priya: raises $0.03 to $0.04
+Hero: folds
+Uncalled bet ($0.02) returned to Priya
+Priya collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0.00
+
+Holdem-ML Hand #1107:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($1.98 in chips)
+Seat 2: Marla ($7.41 in chips)
+Seat 3: Devon ($6.22 in chips)
+Seat 4: Priya ($4.39 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Qc 9c]
+Dealt to Marla [Td 4s]
+Dealt to Devon [8d 2d]
+Dealt to Priya [4h 7s]
+Devon: folds
+Priya: folds
+Hero: calls $0.01
+Marla: checks
+*** FLOP *** [2s Tc Kc]
+Hero: checks
+Marla: checks
+*** TURN *** [2s Tc Kc] [3s]
+Hero: checks
+Marla: checks
+*** RIVER *** [2s Tc Kc 3s] [Jc]
+Hero: checks
+Marla: bets $0.02
+Hero: calls $0.02
+*** SHOW DOWN ***
+Hero: shows [Qc 9c]
+Marla: shows [Td 4s]
+Hero collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.08 | Rake $0.00
+Board [2s Tc Kc 3s Jc]
+
+Holdem-ML Hand #1108:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($2.02 in chips)
+Seat 2: Marla ($7.37 in chips)
+Seat 3: Devon ($6.22 in chips)
+Seat 4: Priya ($4.39 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [5s Qh]
+Dealt to Marla [3h 7c]
+Dealt to Devon [Jc 4d]
+Dealt to Priya [8h Jd]
+Priya: folds
+Hero: folds
+Marla: calls $0.01
+Devon: checks
+*** FLOP *** [Tc 8c Qc]
+Marla: checks
+Devon: checks
+*** TURN *** [Tc 8c Qc] [3s]
+Marla: checks
+Devon: checks
+*** RIVER *** [Tc 8c Qc 3s] [6s]
+Marla: checks
+Devon: checks
+*** SHOW DOWN ***
+Marla: shows [3h 7c]
+Devon: shows [Jc 4d]
+Marla collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0.00
+Board [Tc 8c Qc 3s 6s]
+
+Holdem-ML Hand #1109:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($2.02 in chips)
+Seat 2: Marla ($7.39 in chips)
+Seat 3: Devon ($6.20 in chips)
+Seat 4: Priya ($4.39 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [3h Ac]
+Dealt to Marla [3d 2h]
+Dealt to Devon [4s 8s]
+Dealt to Priya [Jh 5d]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: raises $0.05 to $0.07
+Hero: calls $0.05
+*** FLOP *** [Tc 2s Qh]
+Priya: checks
+Hero: bets $0.15
+Priya: raises $0.45 to $0.45
+Hero: calls $0.30
+*** TURN *** [Tc 2s Qh] [2c]
+Priya: bets $0.69
+Hero: calls $0.69
+*** RIVER *** [Tc 2s Qh 2c] [Td]
+Priya: bets $0.80
+Hero: calls $0.80
+*** SHOW DOWN ***
+Hero: shows [3h Ac]
+Priya: shows [Jh 5d]
+Hero collected $4.03 from pot
+*** SUMMARY ***
+Total pot $4.03 | Rake $0.00
+Board [Tc 2s Qh 2c Td]
+
+Holdem-ML Hand #1110:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($4.04 in chips)
+Seat 2: Marla ($7.39 in chips)
+Seat 3: Devon ($6.19 in chips)
+Seat 4: Priya ($2.38 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [5h 4d]
+Dealt to Marla [3s 4c]
+Dealt to Devon [3h 4s]
+Dealt to Priya [Ac 7s]
+Marla: folds
+Devon: folds
+Priya: raises $0.09 to $0.10
+Hero: calls $0.08
+*** FLOP *** [2c 8d Jd]
+Priya: checks
+Hero: checks
+*** TURN *** [2c 8d Jd] [Tc]
+Priya: checks
+Hero: checks
+*** RIVER *** [2c 8d Jd Tc] [8c]
+Priya: checks
+Hero: bets $0.07
+Priya: raises $0.18 to $0.18
+Hero: calls $0.11
+*** SHOW DOWN ***
+Hero: shows [5h 4d]
+Priya: shows [Ac 7s]
+Priya collected $0.56 from pot
+*** SUMMARY ***
+Total pot $0.56 | Rake $0.00
+Board [2c 8d Jd Tc 8c]
+
+Holdem-ML Hand #1111:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($3.76 in chips)
+Seat 2: Marla ($7.39 in chips)
+Seat 3: Devon ($6.19 in chips)
+Seat 4: Priya ($2.66 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [3h 7s]
+Dealt to Marla [5h 5s]
+Dealt to Devon [5c 7c]
+Dealt to Priya [4d Kh]
+Devon: folds
+Priya: raises $0.05 to $0.05
+Hero: calls $0.04
+Marla: calls $0.03
+*** FLOP *** [7h 6s 2d]
+Hero: checks
+Marla: checks
+Priya: checks
+*** TURN *** [7h 6s 2d] [4h]
+Hero: checks
+Marla: checks
+Priya: checks
+*** RIVER *** [7h 6s 2d 4h] [As]
+Hero: checks
+Marla: checks
+Priya: checks
+*** SHOW DOWN ***
+Hero: shows [3h 7s]
+Marla: shows [5h 5s]
+Priya: shows [4d Kh]
+Hero collected $0.15 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.00
+Board [7h 6s 2d 4h As]
+
+Holdem-ML Hand #1112:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($3.86 in chips)
+Seat 2: Marla ($7.34 in chips)
+Seat 3: Devon ($6.19 in chips)
+Seat 4: Priya ($2.61 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [8d As]
+Dealt to Marla [2h 4h]
+Dealt to Devon [Jh 6h]
+Dealt to Priya [Qs 8s]
+Priya: folds
+Hero: calls $0.02
+Marla: calls $0.01
+Devon: checks
+*** FLOP *** [3c 8h 7h]
+Marla: checks
+Devon: checks
+Hero: checks
+*** TURN *** [3c 8h 7h] [7c]
+Marla: checks
+Devon: checks
+Hero: checks
+*** RIVER *** [3c 8h 7h 7c] [8c]
+Marla: checks
+Devon: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [8d As]
+Marla: shows [2h 4h]
+Devon: shows [Jh 6h]
+Hero collected $0.06 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0.00
+Board [3c 8h 7h 7c 8c]
+
+Holdem-ML Hand #1113:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($3.90 in chips)
+Seat 2: Marla ($7.32 in chips)
+Seat 3: Devon ($6.17 in chips)
+Seat 4: Priya ($2.61 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Js 6s]
+Dealt to Marla [2d 2s]
+Dealt to Devon [Tc Jd]
+Dealt to Priya [9c Jc]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: checks
+*** FLOP *** [8h 3c Qh]
+Priya: checks
+Hero: checks
+*** TURN *** [8h 3c Qh] [Kh]
+Priya: checks
+Hero: bets $0.03
+Priya: folds
+Uncalled bet ($0.03) returned to Hero
+Hero collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0.00
+Board [8h 3c Qh Kh]
+
+Holdem-ML Hand #1114:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($3.93 in chips)
+Seat 2: Marla ($7.32 in chips)
+Seat 3: Devon ($6.16 in chips)
+Seat 4: Priya ($2.59 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Js 9d]
+Dealt to Marla [5c Kd]
+Dealt to Devon [Ah 7h]
+Dealt to Priya [Qs 9s]
+Marla: folds
+Devon: folds
+Priya: calls $0.01
+Hero: checks
+*** FLOP *** [Jh 7s Ad]
+Priya: bets $0.03
+Hero: calls $0.03
+*** TURN *** [Jh 7s Ad] [5h]
+Priya: bets $0.10
+Hero: calls $0.10
+*** RIVER *** [Jh 7s Ad 5h] [8h]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [Js 9d]
+Priya: shows [Qs 9s]
+Hero collected $0.30 from pot
+*** SUMMARY ***
+Total pot $0.30 | Rake $0.00
+Board [Jh 7s Ad 5h 8h]
+
+Holdem-ML Hand #1115:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($4.08 in chips)
+Seat 2: Marla ($7.32 in chips)
+Seat 3: Devon ($6.16 in chips)
+Seat 4: Priya ($2.44 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Ac Kc]
+Dealt to Marla [6d 7c]
+Dealt to Devon [8d 9s]
+Dealt to Priya [8c Qh]
+Devon: folds
+Priya: raises $0.07 to $0.07
+Hero: calls $0.06
+Marla: calls $0.05
+*** FLOP *** [As 4d Js]
+Hero: checks
+Marla: checks
+Priya: bets $0.14
+Hero: calls $0.14
+Marla: folds
+*** TURN *** [As 4d Js] [Jh]
+Hero: checks
+Priya: checks
+*** RIVER *** [As 4d Js Jh] [9c]
+Hero: checks
+Priya: checks
+*** SHOW DOWN ***
+Hero: shows [Ac Kc]
+Priya: shows [8c Qh]
+Hero collected $0.49 from pot
+*** SUMMARY ***
+Total pot $0.49 | Rake $0.00
+Board [As 4d Js Jh 9c]
+
+Holdem-ML Hand #1116:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #1 is the button
+Seat 1: Hero ($4.36 in chips)
+Seat 2: Marla ($7.25 in chips)
+Seat 3: Devon ($6.16 in chips)
+Seat 4: Priya ($2.23 in chips)
+Marla: posts small blind $0.01
+Devon: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [9s Kd]
+Dealt to Marla [6h 6d]
+Dealt to Devon [8h 8s]
+Dealt to Priya [6s 5s]
+Priya: calls $0.02
+Hero: folds
+Marla: calls $0.01
+Devon: checks
+*** FLOP *** [7d 5h 3d]
+Marla: checks
+Devon: checks
+Priya: checks
+*** TURN *** [7d 5h 3d] [2c]
+Marla: checks
+Devon: checks
+Priya: checks
+*** RIVER *** [7d 5h 3d 2c] [4s]
+Marla: bets $0.04
+Devon: folds
+Priya: raises $0.09 to $0.09
+Marla: raises $0.29 to $0.33
+Priya: raises $0.96 to $1.05
+Marla: raises $2.88 to $3.21
+Priya: calls $1.16
+*** SHOW DOWN ***
+Marla: shows [6h 6d]
+Priya: shows [6s 5s]
+Uncalled bet ($1.00) returned to Marla
+Marla collected $2.24 from pot
+Priya collected $2.24 from pot
+*** SUMMARY ***
+Total pot $4.48 | Rake $0.00
+Board [7d 5h 3d 2c 4s]
+
+Holdem-ML Hand #1117:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #2 is the button
+Seat 1: Hero ($4.36 in chips)
+Seat 2: Marla ($7.26 in chips)
+Seat 3: Devon ($6.14 in chips)
+Seat 4: Priya ($2.24 in chips)
+Devon: posts small blind $0.01
+Priya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [Kc 8d]
+Dealt to Marla [Ks 4h]
+Dealt to Devon [Ac 7s]
+Dealt to Priya [3c Qs]
+Hero: calls $0.02
+Marla: folds
+Devon: folds
+Priya: checks
+*** FLOP *** [Ts Jc 9c]
+Priya: checks
+Hero: checks
+*** TURN *** [Ts Jc 9c] [4c]
+Priya: checks
+Hero: checks
+*** RIVER *** [Ts Jc 9c 4c] [Th]
+Priya: checks
+Hero: checks
+*** SHOW DOWN ***
+Hero: shows [Kc 8d]
+Priya: shows [3c Qs]
+Hero collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0.00
+Board [Ts Jc 9c 4c Th]
+
+Holdem-ML Hand #1118:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #3 is the button
+Seat 1: Hero ($4.39 in chips)
+Seat 2: Marla ($7.26 in chips)
+Seat 3: Devon ($6.13 in chips)
+Seat 4: Priya ($2.22 in chips)
+Priya: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [4s 6d]
+Dealt to Marla [7c Qd]
+Dealt to Devon [Td 8h]
+Dealt to Priya [Jh 7h]
+Marla: folds
+Devon: folds
+Priya: raises $0.04 to $0.05
+Hero: calls $0.03
+*** FLOP *** [9s Ks Ts]
+Priya: checks
+Hero: checks
+*** TURN *** [9s Ks Ts] [Jd]
+Priya: bets $0.07
+Hero: calls $0.07
+*** RIVER *** [9s Ks Ts Jd] [7d]
+Priya: bets $0.24
+Hero: calls $0.24
+*** SHOW DOWN ***
+Hero: shows [4s 6d]
+Priya: shows [Jh 7h]
+Priya collected $0.72 from pot
+*** SUMMARY ***
+Total pot $0.72 | Rake $0.00
+Board [9s Ks Ts Jd 7d]
+
+Holdem-ML Hand #1119:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/01/01 12:00:00 ET
+Table 'Holdem-ML' 4-max Seat #4 is the button
+Seat 1: Hero ($4.03 in chips)
+Seat 2: Marla ($7.26 in chips)
+Seat 3: Devon ($6.13 in chips)
+Seat 4: Priya ($2.58 in chips)
+Hero: posts small blind $0.01
+Marla: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [5h Ac]
+Dealt to Marla [Qs Js]
+Dealt to Devon [3c 2d]
+Dealt to Priya [Jc Kd]
+Devon: folds
+Priya: raises $0.07 to $0.07
+Hero: calls $0.06
+Marla: calls $0.05
+*** FLOP *** [Tc Jh 6d]
+Hero: checks
+Marla: bets $0.14
+Priya: raises $0.63 to $0.63
+Hero: calls $0.63
+Marla: raises $1.18 to $1.32
+Priya: calls $0.69
+Hero: raises $2.07 to $2.70
+Marla: calls $1.38
+Priya: calls $1.19
+*** TURN *** [Tc Jh 6d] [8h]
+Hero: checks
+Marla: checks
+*** RIVER *** [Tc Jh 6d 8h] [8s]
+Hero: checks
+Marla: checks
+*** SHOW DOWN ***
+Hero: shows [5h Ac]
+Marla: shows [Qs Js]
+Priya: shows [Jc Kd]
+Priya collected $7.74 from pot
+Marla collected $0.38 from pot
+*** SUMMARY ***
+Total pot $8.12 | Rake $0.00
+Board [Tc Jh 6d 8h 8s]

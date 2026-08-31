@@ -29,6 +29,7 @@ class Sample:
     ret: float          # chips won by this player in this hand, in big blinds
     street: int
     name: str
+    explored: bool = False   # taken at random for coverage, not because it was good
 
 
 def samples_from_result(result: HandResult, sb: int = 1, bb: int = 2,
@@ -85,16 +86,18 @@ def stack_samples(samples: Sequence[Sample]):
     M = np.stack([s.mask for s in samples])
     A = np.array([s.action for s in samples], dtype=np.int64)
     R = np.array([s.ret for s in samples], dtype=np.float32)
-    return X, M, A, R
+    E = np.array([s.explored for s in samples], dtype=bool)
+    return X, M, A, R, E
 
 
 def save_corpus(path: str, samples: Sequence[Sample]) -> None:
-    X, M, A, R = stack_samples(samples)
+    X, M, A, R, E = stack_samples(samples)
     os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
-    np.savez_compressed(path, X=X, M=M, A=A, R=R,
+    np.savez_compressed(path, X=X, M=M, A=A, R=R, E=E,
                         street=np.array([s.street for s in samples], dtype=np.int8))
 
 
 def load_corpus(path: str):
     with np.load(path, allow_pickle=False) as data:
-        return data["X"], data["M"], data["A"], data["R"], data["street"]
+        explored = data["E"] if "E" in data.files else np.zeros(len(data["A"]), bool)
+        return data["X"], data["M"], data["A"], data["R"], explored, data["street"]

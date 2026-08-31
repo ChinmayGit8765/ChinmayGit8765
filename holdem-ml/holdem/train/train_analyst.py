@@ -25,7 +25,6 @@ from ..analysis.corpus import (
     Sample,
     load_corpus,
     samples_from_histories,
-    samples_from_results,
     save_corpus,
     stack_samples,
 )
@@ -33,40 +32,109 @@ from ..analysis.promodel import DEFAULT_PRO_MODEL, ProModel, save_pro_model
 from ..bots.blueprint import BlueprintBot
 from ..bots.neural import NeuralBot
 from ..bots.rule import EquityBot, HonestBot, LooseAggressive, TightRock
+from ..engine import Action, HandResult, Observation
 from ..game import Game
+from ..ml.abstraction import NUM_ACTIONS, legal_mask, to_abstract, to_engine_action
+from ..ml.features import encode
 from ..ml.nn import Adam, HuberLoss, SoftmaxCrossEntropy, minibatches
 
 
+class _CorpusBot:
+    """Wraps a bot, records every decision, and sometimes explores.
+
+    The action-value head has a selection-bias problem: if the corpus only ever
+    contains the all-ins that strong players chose with strong hands, the model
+    concludes that shoving is wonderful everywhere.  Taking a uniformly random
+    legal action a fraction of the time gives it evidence about the lines good
+    players never take.  Those decisions are flagged, and the *policy* head
+    ignores them so it still learns strong play, not random play.
+    """
+
+    def __init__(self, inner, rng: random.Random, epsilon: float = 0.22,
+                 equity_iters: int = 200):
+        self.inner = inner
+        self.name = inner.name
+        self.rng = rng
+        self.epsilon = epsilon
+        self.equity_iters = equity_iters
+        self.pending: List[Sample] = []
+        self.samples: List[Sample] = []
+
+    def act(self, obs: Observation) -> Action:
+        mask = legal_mask(obs)
+        features = encode(obs, equity_iters=self.equity_iters)
+        if self.rng.random() < self.epsilon:
+            choices = [i for i in range(NUM_ACTIONS) if mask[i]]
+            index = self.rng.choice(choices)
+            action = to_engine_action(obs, index)
+            explored = True
+        else:
+            action = self.inner.act(obs)
+            index = to_abstract(obs, action)
+            explored = False
+        self.pending.append(Sample(features=features, mask=mask, action=index,
+                                   ret=0.0, street=obs.street, name=self.name,
+                                   explored=explored))
+        return action
+
+    def on_hand_start(self, seat: int, hand_number: int) -> None:
+        hook = getattr(self.inner, "on_hand_start", None)
+        if hook:
+            hook(seat, hand_number)
+
+    def on_action(self, record, obs_public) -> None:
+        hook = getattr(self.inner, "on_action", None)
+        if hook:
+            hook(record, obs_public)
+
+    def on_hand_end(self, result: HandResult, seat: int) -> None:
+        hook = getattr(self.inner, "on_hand_end", None)
+        if hook:
+            hook(result, seat)
+        ret = result.net.get(seat, 0) / 2.0
+        for sample in self.pending:
+            sample.ret = ret
+        self.samples.extend(self.pending)
+        self.pending = []
+
+
 def generate_corpus(hands: int, rng: random.Random, seats: int = 6,
-                    equity_iters: int = 200) -> List[Sample]:
+                    equity_iters: int = 200, epsilon: float = 0.22) -> List[Sample]:
     """Play strong bots against each other and harvest every decision."""
-    bots = [
+    inner = [
         BlueprintBot("Blueprint", rng=rng),
         NeuralBot("Neural-pro", difficulty="pro", rng=rng),
+        NeuralBot("Neural-strong", difficulty="strong", rng=rng),
         EquityBot("Equity", rng),
         HonestBot("Honest", rng),
         TightRock("Rock", rng),
         LooseAggressive("Lag", rng),
     ][:seats]
+    bots = [_CorpusBot(b, rng, epsilon, equity_iters) for b in inner]
     game = Game(bots, rng=rng)
-    samples: List[Sample] = []
     start = time.time()
     for h in range(hands):
-        result = game.play_hand(keep_history=False)
-        samples.extend(samples_from_results([result], game.sb, game.bb,
-                                            equity_iters=equity_iters))
+        game.play_hand(keep_history=False)
         if (h + 1) % 500 == 0:
-            print(f"  {h + 1}/{hands} hands, {len(samples)} samples "
+            total = sum(len(b.samples) for b in bots)
+            print(f"  {h + 1}/{hands} hands, {total} samples "
                   f"({time.time() - start:.0f}s)", flush=True)
+    samples: List[Sample] = []
+    for b in bots:
+        samples.extend(b.samples)
     return samples
 
 
-def train(model: ProModel, X, M, A, R, epochs: int = 25, lr: float = 1e-3,
+def train(model: ProModel, X, M, A, R, E=None, epochs: int = 25, lr: float = 1e-3,
           batch_size: int = 256, policy_weight: float = 1.0,
           q_weight: float = 0.6, value_weight: float = 0.3,
           clip_bb: float = 40.0, rng: Optional[np.random.Generator] = None) -> None:
     rng = rng or np.random.default_rng(0)
     R = np.clip(R, -clip_bb, clip_bb).astype(np.float32)
+    # Exploratory decisions teach the value head but must not teach the policy
+    # head — otherwise "what a strong player does here" becomes "anything".
+    explored = np.zeros(len(X), dtype=bool) if E is None else np.asarray(E, dtype=bool)
+    policy_sample_weight = (~explored).astype(np.float32)
     opt = Adam(model.parameters(), lr=lr, weight_decay=1e-5)
     ce = SoftmaxCrossEntropy()
     huber = HuberLoss(delta=4.0)
@@ -80,7 +148,8 @@ def train(model: ProModel, X, M, A, R, epochs: int = 25, lr: float = 1e-3,
             opt.zero_grad()
             logits, q, v = model.forward(xb, training=True)
 
-            pol_loss, pol_grad = ce(logits, ab, mask=mb)
+            weights = policy_sample_weight[idx]
+            pol_loss, pol_grad = ce(logits, ab, mask=mb, weights=weights)
 
             # The action value head is only supervised on the action that was
             # actually played — that is the only return we observed.
@@ -113,6 +182,8 @@ def main() -> None:
     ap.add_argument("--corpus", default="data/corpus.npz", help="where to cache the corpus")
     ap.add_argument("--reuse-corpus", action="store_true")
     ap.add_argument("--epochs", type=int, default=25)
+    ap.add_argument("--epsilon", type=float, default=0.22,
+                    help="fraction of corpus decisions taken at random for coverage")
     ap.add_argument("--lr", type=float, default=1e-3)
     ap.add_argument("--seed", type=int, default=5)
     ap.add_argument("--out", default=DEFAULT_PRO_MODEL)
@@ -120,7 +191,7 @@ def main() -> None:
 
     rng = random.Random(args.seed)
     if args.reuse_corpus and os.path.exists(args.corpus):
-        X, M, A, R, street = load_corpus(args.corpus)
+        X, M, A, R, E, street = load_corpus(args.corpus)
         print(f"loaded {len(X)} samples from {args.corpus}")
     else:
         samples: List[Sample] = []
@@ -131,15 +202,16 @@ def main() -> None:
             samples.extend(imported)
         if args.hands:
             print(f"generating {args.hands} self-play hands with the strongest bots")
-            samples.extend(generate_corpus(args.hands, rng))
+            samples.extend(generate_corpus(args.hands, rng, epsilon=args.epsilon))
         if not samples:
             raise SystemExit("no corpus: pass --hands and/or --histories")
         save_corpus(args.corpus, samples)
-        X, M, A, R = stack_samples(samples)
-        print(f"corpus: {len(X)} decisions saved to {args.corpus}")
+        X, M, A, R, E = stack_samples(samples)
+        print(f"corpus: {len(X)} decisions saved to {args.corpus} "
+              f"({int(E.sum())} exploratory)")
 
     model = ProModel(rng=np.random.default_rng(args.seed))
-    train(model, X, M, A, R, epochs=args.epochs, lr=args.lr,
+    train(model, X, M, A, R, E, epochs=args.epochs, lr=args.lr,
           rng=np.random.default_rng(args.seed))
     save_pro_model(args.out, model, {"samples": int(len(X)), "epochs": args.epochs})
     print(f"saved {args.out}")
