@@ -13,20 +13,10 @@ from typing import Optional, Sequence
 
 import numpy as np
 
-from ..engine import Action, ActionType, Observation
+from ..engine import Action, Observation
 from ..equity import fast_equity
 from ..game import BaseAgent
-from ..ml.abstraction import (
-    A_ALLIN,
-    A_CALL,
-    A_FOLD,
-    A_RAISE_33,
-    A_RAISE_66,
-    A_RAISE_100,
-    NUM_ACTIONS,
-    legal_mask,
-    to_engine_action,
-)
+from ..ml.abstraction import A_CALL, A_FOLD, NUM_ACTIONS, legal_mask, to_engine_action
 
 
 class ScriptedBot(BaseAgent):

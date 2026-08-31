@@ -3,7 +3,6 @@ import random
 
 import numpy as np
 import pytest
-from PIL import Image
 
 from holdem.cards import parse_cards as P, rank_of, suit_of
 from holdem.ml.nn import SoftmaxCrossEntropy, numeric_grad_check

@@ -1,5 +1,3 @@
-import io
-import os
 import random
 
 import pytest
@@ -7,7 +5,7 @@ import pytest
 from holdem.analysis.handhistory import format_hand
 from holdem.bots.rule import CallingStation, EquityBot, LooseAggressive
 from holdem.cli import build_parser, main
-from holdem.engine import Action, ActionType, PlayerState, Table
+from holdem.engine import ActionType, PlayerState, Table
 from holdem.game import Game
 from holdem.human import HumanAgent, QuitGame
 from holdem.ui import Painter, format_legal

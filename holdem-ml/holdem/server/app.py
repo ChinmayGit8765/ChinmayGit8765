@@ -194,7 +194,6 @@ class TableServer:
             human = self.humans.get(player_id) if player_id else None
             if human:
                 human.last_seen = time.time()
-                agent = self.agents[human.seat]
                 state = self.game.players[human.seat]
                 you: Dict[str, Any] = {
                     "seat": human.seat,

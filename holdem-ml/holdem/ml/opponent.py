@@ -18,8 +18,8 @@ from __future__ import annotations
 
 import math
 from collections import deque
-from dataclasses import dataclass, field
-from typing import Deque, Dict, List, Optional, Sequence, Tuple
+from dataclasses import dataclass
+from typing import Deque, Dict, Optional, Sequence, Tuple
 
 import numpy as np
 

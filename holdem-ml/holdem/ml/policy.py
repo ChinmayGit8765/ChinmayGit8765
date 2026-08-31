@@ -19,7 +19,7 @@ import numpy as np
 
 from .abstraction import NUM_ACTIONS
 from .features import NUM_FEATURES
-from .nn import Linear, Module, Parameter, ReLU, mlp, softmax
+from .nn import Linear, Module, Parameter, ReLU, mlp
 
 
 class PolicyValueNet(Module):

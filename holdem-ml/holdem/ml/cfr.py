@@ -20,7 +20,7 @@ from __future__ import annotations
 import os
 import random
 from dataclasses import dataclass, field
-from typing import Dict, List, Optional, Sequence, Tuple
+from typing import Dict, List, Optional, Sequence
 
 import numpy as np
 
@@ -32,7 +32,6 @@ from .abstraction import (
     A_FOLD,
     A_RAISE_66,
     A_RAISE_200,
-    ACTION_SHORT,
     NUM_ACTIONS,
     RAISE_FRACTIONS,
     info_bucket,

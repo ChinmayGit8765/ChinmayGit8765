@@ -21,7 +21,7 @@ import numpy as np
 from ..ml import nn as _nn
 from ..ml.abstraction import NUM_ACTIONS
 from ..ml.features import NUM_FEATURES
-from ..ml.nn import Linear, Module, Parameter, ReLU, mlp, softmax
+from ..ml.nn import Linear, Module, Parameter, ReLU, mlp
 from ..ml.policy import mask_softmax
 
 MODEL_DIR = os.path.join(

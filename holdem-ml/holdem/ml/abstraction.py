@@ -18,7 +18,7 @@ from __future__ import annotations
 import json
 import os
 from bisect import bisect_left
-from typing import List, Optional, Sequence, Tuple
+from typing import List, Optional, Sequence
 
 import numpy as np
 

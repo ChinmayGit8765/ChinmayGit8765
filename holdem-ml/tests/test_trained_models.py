@@ -12,11 +12,10 @@ import pytest
 
 from holdem.analysis.analyzer import Analyzer
 from holdem.analysis.promodel import DEFAULT_PRO_MODEL
-from holdem.bots.neural import DEFAULT_BLUEPRINT, DEFAULT_POLICY, NeuralBot
+from holdem.bots.neural import DEFAULT_POLICY, NeuralBot
 from holdem.bots.rule import CallingStation, EquityBot, LooseAggressive, RandomBot, TightRock
 from holdem.cards import parse_cards as P
 from holdem.game import Game
-from holdem.ml.difficulty import resolve_difficulty
 from holdem.ml.policy import load_policy
 from holdem.vision.cardnet import DEFAULT_CARDNET
 from holdem.vision.detect import CardReader
@@ -76,7 +75,6 @@ def test_trained_bot_wins_a_multiway_table():
 
 @requires_cardnet
 def test_card_model_reads_clean_cards_it_has_never_seen():
-    from holdem.cards import rank_of, suit_of
     from holdem.vision.cardnet import load_cardnet
     from holdem.vision.dataset import clean_batch
 

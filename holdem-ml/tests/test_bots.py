@@ -1,7 +1,6 @@
 import os
 import random
 
-import numpy as np
 import pytest
 
 from holdem.bots.blueprint import BlueprintBot, DEFAULT_BLUEPRINT

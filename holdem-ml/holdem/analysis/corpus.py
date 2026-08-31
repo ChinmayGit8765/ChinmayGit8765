@@ -11,13 +11,13 @@ from __future__ import annotations
 
 import os
 from dataclasses import dataclass
-from typing import Dict, Iterable, List, Optional, Sequence
+from typing import Iterable, List, Optional, Sequence
 
 import numpy as np
 
 from ..engine import HandResult
-from ..ml.abstraction import NUM_ACTIONS, legal_mask, to_abstract
-from ..ml.features import NUM_FEATURES, encode
+from ..ml.abstraction import legal_mask, to_abstract
+from ..ml.features import encode
 from .replay import replay_hand
 
 

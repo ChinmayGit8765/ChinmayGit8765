@@ -18,7 +18,7 @@ from __future__ import annotations
 from itertools import combinations
 from typing import Dict, List, Sequence, Tuple
 
-from .cards import RANK_CHARS, rank_of, suit_of
+from .cards import RANK_CHARS
 
 HIGH_CARD = 0
 PAIR = 1

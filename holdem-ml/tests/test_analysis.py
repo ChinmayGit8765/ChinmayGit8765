@@ -4,7 +4,7 @@ import random
 import numpy as np
 import pytest
 
-from holdem.analysis.analyzer import Analyzer, LEAK_RULES
+from holdem.analysis.analyzer import Analyzer
 from holdem.analysis.corpus import (
     load_corpus, samples_from_histories, samples_from_results, save_corpus, stack_samples,
 )

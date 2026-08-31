@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import random
 from dataclasses import dataclass, field, replace
-from typing import Callable, Dict, Iterable, List, Optional, Protocol, Sequence
+from typing import Callable, Dict, List, Optional, Protocol, Sequence
 
 from .engine import (
     Action,

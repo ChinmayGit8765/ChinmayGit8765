@@ -1,14 +1,21 @@
 import random
 
-import numpy as np
-import pytest
 
 from holdem.cards import parse_cards as P
 from holdem.engine import Action, ActionType, PlayerState, Table
 from holdem.ml.abstraction import (
-    A_ALLIN, A_CALL, A_FOLD, A_RAISE_66, A_RAISE_100, NUM_ACTIONS,
-    card_bucket, draw_class, legal_mask, raise_target, strength_percentile,
-    to_abstract, to_engine_action,
+    A_ALLIN,
+    A_CALL,
+    A_FOLD,
+    A_RAISE_66,
+    NUM_ACTIONS,
+    card_bucket,
+    draw_class,
+    legal_mask,
+    raise_target,
+    strength_percentile,
+    to_abstract,
+    to_engine_action,
 )
 
 

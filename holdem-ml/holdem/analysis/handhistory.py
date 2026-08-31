@@ -14,16 +14,10 @@ import os
 import re
 from dataclasses import dataclass, field
 from datetime import datetime
-from typing import Dict, Iterable, List, Optional, Sequence, Tuple
+from typing import Dict, List, Optional, Tuple
 
-from ..cards import card_str, cards_str, parse_card, parse_cards
-from ..engine import (
-    STREET_NAMES,
-    ActionRecord,
-    ActionType,
-    HandResult,
-    PotResult,
-)
+from ..cards import card_str, cards_str, parse_cards
+from ..engine import ActionRecord, ActionType, HandResult, PotResult
 
 _AMOUNT = r"[$€£]?([0-9]+(?:\.[0-9]+)?)"
 RE_HEADER = re.compile(
@@ -120,7 +114,6 @@ def format_hand(result: HandResult, sb: int = 1, bb: int = 2,
         lines.append(f"Seat {seat + 1}: {result.names[seat]} "
                      f"({amt(result.stacks_before[seat])} in chips)")
 
-    posts = [r for r in result.history if False]  # blinds are implicit in the engine
     order = [(result.button + 1 + k) % len(seats) for k in range(len(seats))]
     live = [s for s in order if s in result.stacks_before]
     if len(live) == 2:
@@ -376,7 +369,6 @@ def to_hand_result(parsed: ParsedHand) -> HandResult:
     decision context for every action, which is what the analyser grades.
     """
     history: List[ActionRecord] = []
-    pot = sum(parsed.stacks.values()) * 0  # running pot, filled below
     committed: Dict[str, int] = {}
     street_committed: Dict[str, int] = {}
     current_street = 0

@@ -15,7 +15,7 @@ import numpy as np
 
 from ..cards import make_card
 from ..ml import nn as _nn
-from ..ml.conv import BatchNorm2D, Conv2D, Flatten, MaxPool2D
+from ..ml.conv import BatchNorm2D, Conv2D, Flatten
 from ..ml.nn import Dropout, Linear, Module, Parameter, ReLU, Sequential, softmax
 from .dataset import IMG_H, IMG_W, NUM_RANKS, NUM_SUITS
 

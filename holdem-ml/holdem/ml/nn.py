@@ -16,7 +16,6 @@ Conventions
 
 from __future__ import annotations
 
-import io
 import json
 from typing import Dict, Iterable, List, Optional, Sequence, Tuple
 

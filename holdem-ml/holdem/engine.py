@@ -22,7 +22,7 @@ from dataclasses import dataclass, field
 from enum import IntEnum
 from typing import Dict, List, Optional, Sequence, Tuple
 
-from .cards import Deck, card_str, cards_str
+from .cards import Deck, cards_str
 from .evaluator import describe, evaluate
 
 PREFLOP, FLOP, TURN, RIVER, SHOWDOWN = 0, 1, 2, 3, 4

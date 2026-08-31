@@ -6,7 +6,7 @@ import numpy as np
 import pytest
 
 from holdem.cards import Deck
-from holdem.ml.abstraction import A_CALL, A_FOLD, NUM_ACTIONS
+from holdem.ml.abstraction import A_FOLD, NUM_ACTIONS
 from holdem.ml.cfr import (
     Blueprint, MCCFRTrainer, apply_action, legal_actions, new_hand, payoff,
 )

@@ -14,7 +14,7 @@ from __future__ import annotations
 
 import os
 import random
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import List, Optional, Sequence, Tuple
 
 from PIL import Image, ImageDraw, ImageFont

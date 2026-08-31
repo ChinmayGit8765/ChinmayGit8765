@@ -4,10 +4,10 @@ from __future__ import annotations
 
 import os
 import sys
-from typing import Dict, Iterable, List, Optional, Sequence
+from typing import Dict, Iterable, List, Optional
 
-from .cards import RANK_CHARS, SUIT_CHARS, card_pretty, rank_of, suit_of
-from .engine import Observation, STREET_NAMES
+from .cards import SUIT_CHARS, card_pretty, suit_of
+from .engine import Observation
 
 RESET = "\033[0m"
 BOLD = "\033[1m"

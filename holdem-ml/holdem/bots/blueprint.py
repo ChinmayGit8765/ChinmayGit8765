@@ -9,7 +9,7 @@ from typing import Optional
 import numpy as np
 
 from ..engine import Observation
-from ..ml.abstraction import NUM_ACTIONS, legal_mask
+from ..ml.abstraction import NUM_ACTIONS
 from ..ml.cfr import Blueprint, observation_infoset
 from .rule import EquityBot, ScriptedBot
 

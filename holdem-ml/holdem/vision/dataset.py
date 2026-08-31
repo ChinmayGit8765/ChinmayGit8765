@@ -8,13 +8,13 @@ shifts, blur, sensor noise, JPEG-like blocking and partial occlusion.
 from __future__ import annotations
 
 import random
-from typing import List, Optional, Sequence, Tuple
+from typing import Optional, Sequence, Tuple
 
 import numpy as np
 from PIL import Image, ImageEnhance, ImageFilter
 
 from ..cards import NUM_CARDS, rank_of, suit_of
-from .render import CardStyle, TRAIN_STYLES, render_card
+from .render import CardStyle, render_card
 
 IMG_H, IMG_W = 48, 32
 NUM_RANKS, NUM_SUITS = 13, 4

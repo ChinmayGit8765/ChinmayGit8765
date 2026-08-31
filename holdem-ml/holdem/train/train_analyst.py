@@ -17,7 +17,7 @@ import argparse
 import os
 import random
 import time
-from typing import List, Optional, Sequence
+from typing import List, Optional
 
 import numpy as np
 

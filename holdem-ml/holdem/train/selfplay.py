@@ -25,7 +25,7 @@ import os
 import random
 import time
 from dataclasses import dataclass
-from typing import Dict, List, Optional, Sequence, Tuple
+from typing import Dict, List, Optional, Sequence
 
 import numpy as np
 
@@ -35,9 +35,9 @@ from ..engine import Action, HandResult, Observation
 from ..game import Game
 from ..ml.abstraction import NUM_ACTIONS, legal_mask, to_engine_action
 from ..ml.cfr import Blueprint, observation_infoset
-from ..ml.features import NUM_FEATURES, encode
+from ..ml.features import encode
 from ..ml.nn import Adam, SoftmaxCrossEntropy, minibatches, softmax
-from ..ml.policy import PolicyValueNet, load_policy, mask_softmax, save_policy
+from ..ml.policy import PolicyValueNet, load_policy, save_policy
 
 
 # Heads-up appears most often: it is the hardest spot and the one every

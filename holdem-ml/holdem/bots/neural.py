@@ -41,12 +41,7 @@ from ..ml.abstraction import (
     to_engine_action,
 )
 from ..ml.cfr import Blueprint, observation_infoset
-from ..ml.difficulty import (
-    AdaptiveDifficulty,
-    Difficulty,
-    SkillTracker,
-    resolve_difficulty,
-)
+from ..ml.difficulty import AdaptiveDifficulty, SkillTracker, resolve_difficulty
 from ..ml.features import encode, last_aggressor
 from ..ml.opponent import OpponentTracker
 from ..ml.policy import PolicyValueNet, load_policy, mask_softmax

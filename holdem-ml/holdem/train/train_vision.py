@@ -13,7 +13,7 @@ import multiprocessing as mp
 import os
 import random
 import time
-from typing import Sequence, Tuple
+from typing import Tuple
 
 import numpy as np
 
