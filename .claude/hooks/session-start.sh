@@ -6,13 +6,17 @@
 # contributions on this account. This hook sets the identity per checkout, at
 # session start, before anything can commit.
 #
+# The address is GitHub's noreply alias for this account: it always counts,
+# it keeps the real inbox out of public history, and it survives the
+# "block command line pushes that expose my email" setting.
+#
 # Local sessions inherit whatever the machine's global identity is — run
 # scripts/consolidate_identity.sh once per machine to make that correct too.
 
 set -euo pipefail
 
 AUTHOR_NAME="Chinmay Purohit"
-AUTHOR_EMAIL="careers.chinmay@gmail.com"
+AUTHOR_EMAIL="193141422+ChinmayGit8765@users.noreply.github.com"
 
 cd "${CLAUDE_PROJECT_DIR:-$PWD}"
 

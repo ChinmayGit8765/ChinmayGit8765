@@ -69,14 +69,16 @@ Three things worth knowing before you start:
 - **Removing a verified address de-attributes its commits again.** Once moved,
   leave it on the account — it costs nothing to keep, and it is what holds the
   history in place.
-- **If "Block command line pushes that expose my email" is on**, pushes
-  authored with `careers.chinmay@gmail.com` are rejected. Either turn that off,
-  or switch the identity everywhere to
-  `193141422+ChinmayGit8765@users.noreply.github.com`, which counts identically
-  and is already in the allowlist.
+- **The default identity here is the noreply alias**,
+  `193141422+ChinmayGit8765@users.noreply.github.com` (GitHub shows it under
+  Settings → Emails). It counts exactly like a real address, keeps the inbox
+  out of public history, and is the only identity that survives *"Block command
+  line pushes that expose my email"* — which rejects a push authored with
+  `careers.chinmay@gmail.com`. That address still counts and is still allowed;
+  it is simply no longer what gets written.
 
 Rather keep the accounts separate? Then step 3 alone still recovers 15 commits
-a month, and every future commit must use `careers.chinmay@gmail.com`.
+a month, and every future commit must use an address verified here.
 
 ### 2. Stop the leak at the source (every machine, every agent)
 
@@ -87,7 +89,13 @@ until you pass `--apply`, and is safe to run repeatedly:
 ./scripts/consolidate_identity.sh              # show the plan
 ./scripts/consolidate_identity.sh --apply      # global identity, guard, sweep
 ./scripts/consolidate_identity.sh --apply --root ~/code --depth 6
+./scripts/consolidate_identity.sh --apply --strict   # one address, no exceptions
 ```
+
+It writes the noreply alias as the identity everywhere. By default it leaves a
+checkout already on `careers.chinmay@gmail.com` alone, since that address
+counts too; `--strict` moves those onto the alias as well, which is what you
+want if you turn on the push-blocking setting above.
 
 It sets the global identity, installs a `pre-commit` guard in a global
 `core.hooksPath` that refuses any commit whose author email is not verified on
@@ -102,7 +110,7 @@ Agent sessions are the sharp edge. A Claude Code cloud container ships with
 repo also carries `.claude/hooks/session-start.sh`, registered in
 `.claude/settings.json`: every session, cloud or local, pins the checkout's
 identity before anything can commit. Copy those two files into any repo an
-agent touches — they are eleven lines and have no dependencies.
+agent touches — two small files, no dependencies.
 
 ### 3. Decide what the cron bots commit as
 

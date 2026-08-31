@@ -9,13 +9,16 @@
 #   ./scripts/consolidate_identity.sh                 # dry run — shows the plan
 #   ./scripts/consolidate_identity.sh --apply         # do it
 #   ./scripts/consolidate_identity.sh --apply --root ~/code
+#   ./scripts/consolidate_identity.sh --apply --strict   # force ONE address
 #
 # Safe to run repeatedly.
 
 set -euo pipefail
 
 NAME="Chinmay Purohit"
-EMAIL="careers.chinmay@gmail.com"
+# GitHub's noreply alias for @ChinmayGit8765: always counts, never exposes
+# the real inbox, and passes the "block pushes that expose my email" setting.
+EMAIL="193141422+ChinmayGit8765@users.noreply.github.com"
 # Addresses GitHub has VERIFIED on @ChinmayGit8765 today. A commit authored
 # with anything else is worth zero contributions, so anything not listed here
 # gets rewritten to $EMAIL.
@@ -25,17 +28,18 @@ EMAIL="careers.chinmay@gmail.com"
 # verified now. Once cpur0011@student.monash.edu and
 # chinmaypurohit1010@gmail.com are moved over, add them and re-run.
 ALLOWED=(
-  "careers.chinmay@gmail.com"
   "193141422+ChinmayGit8765@users.noreply.github.com"
+  "careers.chinmay@gmail.com"
 )
 ROOT="$HOME"
 DEPTH=5
 HOOKS_PATH="$HOME/.config/git/hooks"
 APPLY=0
 GUARD=1
+STRICT=0
 
 usage() {
-  sed -n '2,12p' "$0" | sed 's/^# \{0,1\}//'
+  sed -n '2,14p' "$0" | sed 's/^# \{0,1\}//'
   exit "${1:-0}"
 }
 
@@ -43,6 +47,7 @@ while [ $# -gt 0 ]; do
   case "$1" in
     --apply) APPLY=1 ;;
     --no-guard) GUARD=0 ;;
+    --strict) STRICT=1 ;;
     --root) ROOT="$2"; shift ;;
     --depth) DEPTH="$2"; shift ;;
     --name) NAME="$2"; shift ;;
@@ -104,7 +109,7 @@ case " $allowed " in
 esac
 echo "pre-commit: author email '$email' is not verified on @ChinmayGit8765," >&2
 echo "so this commit would not count. Fix it with:" >&2
-echo "  git config user.email careers.chinmay@gmail.com" >&2
+echo "  git config user.email 193141422+ChinmayGit8765@users.noreply.github.com" >&2
 exit 1
 GUARD
       } > "$HOOKS_PATH/pre-commit"
@@ -120,13 +125,21 @@ GUARD
 fi
 
 echo
-echo "3. Checkouts under $ROOT with a stale local identity"
+if [ "$STRICT" -eq 1 ]; then
+  echo "3. Checkouts under $ROOT not on $EMAIL (--strict)"
+else
+  echo "3. Checkouts under $ROOT with a stale local identity"
+fi
 found=0
 while IFS= read -r gitdir; do
   repo="$(dirname "$gitdir")"
   local_email="$(git -C "$repo" config --local user.email || true)"
   [ -n "$local_email" ] || continue
-  is_allowed "$local_email" && continue
+  if [ "$STRICT" -eq 1 ]; then
+    [ "$local_email" = "$EMAIL" ] && continue
+  else
+    is_allowed "$local_email" && continue
+  fi
   found=$((found + 1))
   echo "  $repo: $local_email -> $EMAIL"
   run git -C "$repo" config --local user.name "$NAME"
@@ -134,6 +147,13 @@ while IFS= read -r gitdir; do
 done < <(find "$ROOT" -maxdepth "$DEPTH" -name .git -print 2>/dev/null)
 
 [ "$found" -eq 0 ] && echo "  none — every local override already counts"
+
+if [ "$STRICT" -eq 0 ]; then
+  echo
+  echo "careers.chinmay@gmail.com still counts and is left alone. If you turn on"
+  echo "\"block command line pushes that expose my email\", re-run with --strict to"
+  echo "move every checkout onto the noreply address."
+fi
 
 echo
 echo "Verify with:  python3 scripts/attribution_audit.py --days 7"
