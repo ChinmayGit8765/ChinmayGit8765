@@ -76,9 +76,10 @@ holdem/
   vision/        render.py dataset.py cardnet.py detect.py
   analysis/      handhistory.py replay.py corpus.py promodel.py analyzer.py
   server/        app.py client.py         multiplayer table over HTTP
-  train/         every training entry point
+  train/         every training entry point, plus benchmark.py
+examples/        a sample hand-history file to run the analyser on
 models/          trained weights, committed
-tests/           147 tests
+tests/           200 tests
 ```
 
 ---
@@ -171,8 +172,9 @@ is capped per hand, so it tracks improvement instead of chasing variance.
 ### 6. Card vision — images to cards
 
 `holdem/vision/`. There is no public dataset of every card in every skin, so the
-data is generated: `render.py` draws cards in eleven deck styles (different fonts,
-palettes, four-colour decks, font-glyph vs vector-drawn pips), and `dataset.py`
+data is generated: `render.py` draws cards in fifteen deck styles across three font
+families (different palettes, four-colour decks, font-glyph vs vector-drawn
+pips), and `dataset.py`
 augments them with rotation, non-uniform scaling, lighting and gamma shifts, blur,
 sensor noise and partial occlusion.
 
@@ -256,23 +258,61 @@ test.
 
 ### The trained bot beats every baseline
 
-`pro` difficulty, heads-up, big blinds per 100 hands. Self-play round 1 trained
-only 4-handed; round 2 randomised the table size, which is what fixed heads-up
-play:
+`python -m holdem.train.benchmark` produces this. Heads-up, one session of 3,000
+hands per pairing, big blinds per 100 hands:
 
-| opponent | after round 1 | after round 2 |
-|---|---:|---:|
-| EquityBot (pot odds + position) | +634 | **+888** |
-| TightRock (premium hands only)  | +517 | **+768** |
-| CallingStation                  | +2293 | **+2528** |
-| LooseAggressive                 | +1680 | **+1912** |
+| | EquityBot | TightRock | CallingStation | LooseAggressive | RandomBot | HonestBot |
+|---|---:|---:|---:|---:|---:|---:|
+| **neural (pro)** | **+723** | **+670** | **+2420** | **+1780** | **+1500** | **+770** |
+| neural (regular) | −60 | +307 | +2237 | +1705 | +1028 | +240 |
+| neural (novice) | +130 | −551 | +1623 | +1034 | +1147 | +127 |
+| CFR blueprint | −161 | −200 | +443 | +563 | +664 | −142 |
+| EquityBot (reference) | +129 | −74 | +229 | +472 | +1467 | −85 |
 
-Five-handed against all four at once, over 4,000 hands: **+2,407 bb/100**, with
-the next-best seat at +2.5.
+The ladder is a real ladder: `novice` loses to two of the baselines that `pro`
+beats comfortably.
 
-These are huge numbers because the baselines are weak and the stacks are 100 big
-blinds deep, so single pots swing hundreds of blinds. Treat them as an ordering,
-not as a rating.
+**How noisy is that?** Re-measured as the mean of four independent 2,000-hand
+sessions, the `pro` row reads +586 / +630 / +2570 / +1803 / +1419 / +551. The
+close matchups move by a few hundred bb/100 between runs; the lopsided ones
+barely move. Read the ordering, not the digits.
+
+Five-handed against EquityBot, TightRock, CallingStation and LooseAggressive at
+once: **+1,908 bb/100** as the mean of two 2,000-hand sessions (+2,199 and
++1,618), finishing first in both. The next-best seat averaged +98.
+
+These numbers are large because the baselines are weak and stacks are 100 big
+blinds deep, so single pots swing hundreds of blinds.
+
+### Card recognition, on decks the model never trained on
+
+| | |
+|---|---|
+| clean renders, 12 training decks | **100.0%** of 52 cards, every deck |
+| clean renders, 3 **held-out** decks | **91.7%** (96% / 92% / 87%) |
+| detection on rendered tables | **75/75** boards found all five cards |
+| end-to-end (detect → classify) | **371/375 cards, 98.9%** |
+| heavily augmented held-out crops | 84.1% card, 85.5% rank, 98.2% suit |
+
+The last row is the robustness figure — those crops are rotated, rescaled,
+blurred, noised, and up to a third of the card can be covered.
+
+### The analyser ranks players correctly
+
+300 hands of four bots, expected value lost per 100 hands and agreement with the
+pro policy:
+
+| player | style | EV lost | agreement |
+|---|---|---:|---:|
+| Solid | pot-odds bot | 220 bb/100 | 67% |
+| Nit | premium hands only | 197 bb/100 | 61% |
+| Wild | uniformly random | 717 bb/100 | 16% |
+| Maniac | raises everything | 888 bb/100 | 37% |
+
+On `examples/sample-session.txt` (120 hands of a calling station) it flags every
+one of that player's real leaks — VPIP 79%, folds to bets 6%, aggression factor
+0.2, showdown 86% — and the five decisions it picks out as most expensive are
+all calls that should have been folds.
 
 ### Measuring beat guessing: the blueprint blend
 
@@ -291,9 +331,6 @@ So the blueprint now weights 0 at `pro` and rises as difficulty *falls*: the
 lower levels play its textbook-but-exploitable style, which is a more
 poker-realistic way to be weak than simply adding noise.
 
-The same sweep showed the opponent-model exploitation is worth a few percent in
-every matchup, so `pro` uses it at full strength.
-
 ---
 
 ## Training it yourself
@@ -305,8 +342,15 @@ python -m holdem.train.preflop_table                     # 169×8 equity cache  
 python -m holdem.train.strength_table                    # strength percentiles (~10 s)
 python -m holdem.train.cfr_train --iters 1200000 --workers 4     # CFR blueprint (~35 min)
 python -m holdem.train.selfplay --stage both --hands 40000       # policy        (~10 min)
-python -m holdem.train.train_vision --train 24000 --epochs 12    # card CNN      (~15 min)
-python -m holdem.train.train_analyst --hands 6000                # analyser      (~10 min)
+python -m holdem.train.train_vision --train 24000 --epochs 14    # card CNN      (~25 min)
+python -m holdem.train.train_analyst --hands 6000                # analyser      (~8 min)
+```
+
+Timings are from a four-core container. Then re-measure everything:
+
+```bash
+python -m holdem.train.benchmark          # every table in this README
+python -m holdem.train.benchmark --quick  # a two-minute version
 ```
 
 The analyser can be trained on **your** hands instead of generated ones:

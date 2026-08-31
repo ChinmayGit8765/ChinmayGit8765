@@ -1,9 +1,9 @@
 """Monte-Carlo Counterfactual Regret Minimisation over the abstracted game.
 
-This is the bot's *blueprint*: an unexploitable-by-construction baseline
-strategy learned from nothing but self-play, with no hand-coded poker
-knowledge.  External-sampling MCCFR walks the betting tree for one player at a
-time, sampling chance (the deck) and the opponent's actions, and accumulates:
+This is the bot's *blueprint*: a baseline strategy learned from nothing but
+self-play, with no hand-coded poker knowledge.  External-sampling MCCFR walks
+the betting tree for one player at a time, sampling chance (the deck) and the
+opponent's actions, and accumulates:
 
 * ``regret_sum``   — how much better each action would have been in hindsight,
 * ``strategy_sum`` — the visit-weighted strategy, whose average is what
@@ -13,6 +13,12 @@ Regret matching turns positive regrets into a probability distribution, which
 is the whole learning rule.  The resulting table both plays directly (see
 :class:`holdem.bots.blueprint.BlueprintBot`) and supplies training targets for
 the neural policy.
+
+What this does *not* give you is an unexploitable player.  The average strategy
+approaches an equilibrium of the **abstraction**, not of no-limit Hold'em, and
+the abstraction here is coarse: measured heads-up the blueprint beats loose and
+passive opponents comfortably and loses to a very tight one.  Treat it as a
+strong prior, not as a solve.
 """
 
 from __future__ import annotations
