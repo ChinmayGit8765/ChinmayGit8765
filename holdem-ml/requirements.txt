@@ -1,0 +1,4 @@
+# The ML is hand-written; NumPy is the only thing doing real arithmetic.
+numpy>=1.24
+# Pillow renders and reads the synthetic card images for the vision model.
+pillow>=10.0
